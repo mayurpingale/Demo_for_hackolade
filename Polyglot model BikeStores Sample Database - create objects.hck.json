@@ -1,0 +1,2558 @@
+{
+    "modelName": "BikeStores Sample Database - create objects",
+    "collections": [
+        {
+            "collectionName": "categories",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "category_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "7033d3d6-aea2-4fa1-aae9-f9a5d06192d8"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "unique": false,
+                    "GUID": "68eee4b5-cc5f-4630-a32c-e651a8b4b592",
+                    "childRelationships": [
+                        "a9cd58dd-5e99-44b7-8cf7-69f60c95ca12"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "7d5cf1ad-48fd-4909-8907-18de905f54f0",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "category_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "categories",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "production",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "category_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "length": 255,
+                    "unique": false,
+                    "GUID": "25cc75bb-25cb-401c-81e3-04e4e391d409",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "419ccd8e-7603-4d0a-8c28-bcebcf459267",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "category_name",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "categories",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "production",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "122c3cff-3ce0-4cd6-b7fd-e2593295e5ed"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "2026ba9f-b344-47f6-9401-3d2dab001471",
+            "bucketId": "db50e0f4-7d4c-4414-bc99-e4b36aa0e4ca",
+            "comments": "",
+            "description": "",
+            "primaryKey": [],
+            "uniqueKey": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "brands",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "brand_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "065cba6f-9a8a-47ee-bbd2-06e1029e46df"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "unique": false,
+                    "GUID": "5ae0474d-3c61-40b3-a9eb-e6925d0a8a36",
+                    "childRelationships": [
+                        "acefaf2b-a217-41ca-be75-7c68dd3bdc7b"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "9c6460ed-ffef-45a7-99de-e2d9b0187b26",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "brand_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "brands",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "production",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "brand_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "length": 255,
+                    "unique": false,
+                    "GUID": "479adebc-b2fb-49ae-b8f0-798283019bca",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "58be19e1-7aff-440e-b3e5-c035457aa066",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "brand_name",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "brands",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "production",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "938d824a-4283-4f30-bc7d-5f93f621241e"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "312883f8-faf2-4950-8096-066093d999d0",
+            "bucketId": "db50e0f4-7d4c-4414-bc99-e4b36aa0e4ca",
+            "comments": "",
+            "description": "",
+            "primaryKey": [],
+            "uniqueKey": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "products",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "product_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "1e82cec8-d75b-4169-b2e2-fc8f32c7abc2"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "unique": false,
+                    "GUID": "073e44ae-e23d-49b2-ad6f-030319d5693e",
+                    "childRelationships": [
+                        "686044e1-e4fe-4330-967a-2553b446978c",
+                        "5956c4a6-cb85-42b5-a69c-e48b1f8afedd"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "fb49328f-9473-4998-a17e-e861e47321c0",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "product_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "products",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "production",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "product_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "length": 255,
+                    "unique": false,
+                    "GUID": "c8aa56ec-6185-482e-8e92-03864c47e02d",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "b98e2ca1-a434-48b9-a608-08f4702da882",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "product_name",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "products",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "production",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "brand_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "e87a53a1-62b0-444b-8c11-a9016f8cbdf9"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "GUID": "56fe4f4e-2133-4aa1-ab67-488faea7492d",
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "acefaf2b-a217-41ca-be75-7c68dd3bdc7b",
+                    "foreignCollection": "312883f8-faf2-4950-8096-066093d999d0",
+                    "foreignField": [
+                        "312883f8-faf2-4950-8096-066093d999d0",
+                        "5ae0474d-3c61-40b3-a9eb-e6925d0a8a36"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "ea45e73c-ee55-464b-8aaf-5da9a3a19299",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "brand_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "products",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "production",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "category_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "012b7fd5-d2ad-4e9e-801b-a29bdae63eeb"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "GUID": "319fbaa9-3af7-4a3d-a864-f84f9d4d7921",
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "a9cd58dd-5e99-44b7-8cf7-69f60c95ca12",
+                    "foreignCollection": "2026ba9f-b344-47f6-9401-3d2dab001471",
+                    "foreignField": [
+                        "2026ba9f-b344-47f6-9401-3d2dab001471",
+                        "68eee4b5-cc5f-4630-a32c-e651a8b4b592"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "d42bd894-4d71-4406-8c5a-0a1513728dd9",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "category_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "products",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "production",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "model_year",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "fa1a137d-f0f9-4e59-8d1a-e53664660f76"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "GUID": "660e8f01-efbd-4fc8-b9ae-58fe3cad7152",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "64d8f190-1cd4-402f-b436-f7baf54f50e5",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "model_year",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "products",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "production",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "list_price",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "430919f1-28e3-4cb2-94c6-289507b95e8f"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "mode": "decimal",
+                    "precision": 10,
+                    "scale": 2,
+                    "unique": false,
+                    "GUID": "97758dc3-4350-4b34-843f-a33d1590743c",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "83cb84ad-0591-4cf3-abba-4661b9a3f8bb",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "list_price",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "products",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "production",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "96b74e8b-d449-447f-a656-1462dbf22244"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "69aec577-d593-48f3-9962-95497e46f428",
+            "bucketId": "db50e0f4-7d4c-4414-bc99-e4b36aa0e4ca",
+            "comments": "",
+            "description": "",
+            "primaryKey": [],
+            "uniqueKey": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "stocks",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "store_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "f6679b1c-96a7-4db2-aa60-6f25d3d46331"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "GUID": "4c86a545-42ac-4e99-be81-c33319d6dc2c",
+                    "compositeKey": [
+                        "compositePrimaryKey"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "f140a203-6eb9-4b62-9622-5769fe6c7275",
+                    "foreignCollection": "0b6410ad-1914-4f09-9d21-912773571428",
+                    "foreignField": [
+                        "0b6410ad-1914-4f09-9d21-912773571428",
+                        "07336bf6-62cb-459b-83db-3f8555d5fedd"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "e1e7bd28-c815-4cd6-863a-70877893a99b",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "store_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "stocks",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "production",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "product_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "e148e954-e3f0-4fb7-ae36-b8978c7c933b"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "GUID": "0a33ee32-ae36-4627-b83b-82419b027f1b",
+                    "compositeKey": [
+                        "compositePrimaryKey"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "5956c4a6-cb85-42b5-a69c-e48b1f8afedd",
+                    "foreignCollection": "69aec577-d593-48f3-9962-95497e46f428",
+                    "foreignField": [
+                        "69aec577-d593-48f3-9962-95497e46f428",
+                        "073e44ae-e23d-49b2-ad6f-030319d5693e"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "0ddb68de-8916-4567-8b6a-380a41757d05",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "product_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "stocks",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "production",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "quantity",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "4e5974af-f4c6-4aa7-ae1a-eb42b6709a25"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "unique": false,
+                    "GUID": "5f8bd4f0-4369-4183-a729-41f045399858",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "4a37b748-0aac-41af-8cad-7065f271df2f",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "quantity",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "stocks",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "production",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "acb09628-3033-495e-8f3d-328f88af6bb8"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "99bcd279-366e-4dc7-ac16-578076ef0ef9",
+            "bucketId": "db50e0f4-7d4c-4414-bc99-e4b36aa0e4ca",
+            "comments": "",
+            "description": "",
+            "primaryKey": [
+                {
+                    "GUID": "fe8a7c4a-e551-4250-a2be-994944ef5405",
+                    "constraintName": "",
+                    "compositePrimaryKey": [
+                        {
+                            "keyId": "4c86a545-42ac-4e99-be81-c33319d6dc2c",
+                            "type": "ascending"
+                        },
+                        {
+                            "keyId": "0a33ee32-ae36-4627-b83b-82419b027f1b",
+                            "type": "ascending"
+                        }
+                    ]
+                }
+            ],
+            "uniqueKey": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "customers",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "customer_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "1e07cf62-360e-426b-89f8-89cf57f4be0b"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "unique": false,
+                    "GUID": "d18c21bc-bf21-4ace-93d3-644f5944982f",
+                    "childRelationships": [
+                        "5f4b8f64-2d15-49f1-a046-2421c0ed8d41"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "deb80b99-2cd6-426f-8692-142101ae5c25",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "customer_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "customers",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "first_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "length": 255,
+                    "unique": false,
+                    "GUID": "7c5500c9-f941-48d0-94e6-bd50f1748185",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "d4d77496-12f4-4f41-b918-0d2ed9d5c779",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "first_name",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "customers",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "last_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "length": 255,
+                    "unique": false,
+                    "GUID": "70f1fd48-95d5-4db2-9d2d-0c4e5399cb3e",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "d64d80c8-19bd-4eec-b8b2-b2033c1db45c",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "last_name",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "customers",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "phone",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "length": 25,
+                    "unique": false,
+                    "GUID": "0c01da46-d3ca-4fab-a6fa-aa4bbc0e30d9",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "561d48b0-1ead-4c00-8bd9-dff76985ec02",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "phone",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "customers",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "email",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "length": 255,
+                    "unique": false,
+                    "GUID": "8d1cc847-6178-4d17-a61a-17515c4bafeb",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "2fa49348-85b4-4514-bf40-a78c4269f928",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "email",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "customers",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "street",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "length": 255,
+                    "unique": false,
+                    "GUID": "6867db95-d67a-41f8-9296-48811f11c3de",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "94dba819-5075-40e5-96e3-5042aef7dd8c",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "street",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "customers",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "city",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "length": 50,
+                    "unique": false,
+                    "GUID": "c35d7ef4-2830-4179-843f-b33462f31ad7",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "1a13adf4-dc3f-4423-93fa-7ea476638d0b",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "city",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "customers",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "state",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "length": 25,
+                    "unique": false,
+                    "GUID": "ca115755-8063-42b6-8d17-8de95d64139c",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "523e6447-034d-4360-8e17-d5f49afe255c",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "state",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "customers",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "zip_code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "length": 5,
+                    "unique": false,
+                    "GUID": "a43292c8-669d-4437-8151-64c0cb2273b8",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "7a5fcb44-08c0-4cf6-a610-925c347722ec",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "zip_code",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "customers",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "070c7ce0-4209-4441-8b40-9bb7e06dc022"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "52510e0e-f02b-4096-ab78-32efaff9d7a9",
+            "bucketId": "51c6d65d-910b-4728-a481-97a28e5725b0",
+            "comments": "",
+            "description": "",
+            "primaryKey": [],
+            "uniqueKey": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "stores",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "store_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "a555d300-bb50-425f-a68c-e3291ec146fa"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "unique": false,
+                    "GUID": "07336bf6-62cb-459b-83db-3f8555d5fedd",
+                    "childRelationships": [
+                        "a2fb0153-3eea-440b-aca2-50d29a8e1d62",
+                        "cd64d8f2-cbee-44f6-a35d-46c43e84dbbc",
+                        "f140a203-6eb9-4b62-9622-5769fe6c7275"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "8afce4e3-e230-4b96-9721-a4f96f52644a",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "store_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "stores",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "store_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "length": 255,
+                    "unique": false,
+                    "GUID": "24498c88-bd1c-4bda-8624-97dd36fdd875",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "b205ee1e-acff-4a49-8154-c58eb861e240",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "store_name",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "stores",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "phone",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "length": 25,
+                    "unique": false,
+                    "GUID": "6d0446c6-1c33-4ac0-b33d-ed720269d5e8",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "793e8e22-2635-4866-aeff-a6a6bcda9ef8",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "phone",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "stores",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "email",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "length": 255,
+                    "unique": false,
+                    "GUID": "11a79ac3-c356-4642-93fd-dea9fa117e59",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "6c4220ec-0004-4103-ab7c-7aaf3f034239",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "email",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "stores",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "street",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "length": 255,
+                    "unique": false,
+                    "GUID": "33449475-e27c-4061-807e-d93c1458c680",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "8bd7fe40-8d5c-4602-a25f-84d894b8adb7",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "street",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "stores",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "city",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "length": 255,
+                    "unique": false,
+                    "GUID": "f0c8dc08-ea47-4f6d-bfb5-6038a7bf0bef",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "5dafdf2f-1b38-4638-a966-3f565f34debe",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "city",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "stores",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "state",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "length": 10,
+                    "unique": false,
+                    "GUID": "f94c73e0-2769-4d8e-bbe9-1007f95a6b1e",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "dd6149fc-1df6-4e3a-acf4-37bf17354c30",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "state",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "stores",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "zip_code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "length": 5,
+                    "unique": false,
+                    "GUID": "c97d6bb7-f4b4-4120-ae25-dac507d484e0",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "11e2dc94-48ce-49e5-a3c9-27a774f2c149",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "zip_code",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "stores",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "e0e351b8-31f8-48c0-88c6-f6e9740ba224"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "0b6410ad-1914-4f09-9d21-912773571428",
+            "bucketId": "51c6d65d-910b-4728-a481-97a28e5725b0",
+            "comments": "",
+            "description": "",
+            "primaryKey": [],
+            "uniqueKey": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "staffs",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "staff_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "b4a9c477-e3cf-4342-b5db-d82a9c81bdb6"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "unique": false,
+                    "GUID": "b558b54d-4479-4f87-9807-0ead61ba0f7d",
+                    "childRelationships": [
+                        "f69c6de5-6833-41cf-a149-367469f22034",
+                        "c26502d4-8845-4d15-a924-79cba73b9f6d"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "52adf27b-4354-4cf1-9080-dbf490ea2fac",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "staff_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "staffs",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "first_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "length": 50,
+                    "unique": false,
+                    "GUID": "6e749eee-76e1-4d45-8e52-421cfc4ca53c",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "6aeaacfd-02f4-4e42-8466-61cd651db968",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "first_name",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "staffs",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "last_name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "length": 50,
+                    "unique": false,
+                    "GUID": "b351e735-90b4-474c-badf-9b4e8996b082",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "28ffdc1c-1482-4565-8110-25e351af0c0c",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "last_name",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "staffs",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "email",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "length": 255,
+                    "unique": true,
+                    "GUID": "34a6268b-37a8-4c95-b625-e05b4cb5c1ba",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "157aa1f2-6d82-4a5d-9659-de44da3ec19d",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "email",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "staffs",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "phone",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "length": 25,
+                    "unique": false,
+                    "GUID": "4433f0a4-746a-43ae-a04e-9349d7b32cec",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "f42ece26-70f5-46da-972d-87f0c8d7190a",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "phone",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "staffs",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "active",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "f87ed911-52fb-4a5f-a041-377544a00c06"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "GUID": "b9ee55e6-0811-4f23-9885-120b8bbaa64a",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "fbbfc3e1-8e1a-4f2d-94f4-8a8339759d4b",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "active",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "staffs",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "store_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "bf400371-40fb-4980-84be-730b9a2457dc"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "GUID": "a5188d48-4e1e-41d1-8af2-5616ce2fe82a",
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "a2fb0153-3eea-440b-aca2-50d29a8e1d62",
+                    "foreignCollection": "0b6410ad-1914-4f09-9d21-912773571428",
+                    "foreignField": [
+                        "0b6410ad-1914-4f09-9d21-912773571428",
+                        "07336bf6-62cb-459b-83db-3f8555d5fedd"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "b90970fc-2751-4874-9e2f-b491c3e2c86d",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "store_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "staffs",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "manager_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "3f4eb4b5-2329-4d19-896f-8cc1143d68ae"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "unique": false,
+                    "GUID": "579716d6-24f2-4364-9aca-66237819e1b6",
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "f69c6de5-6833-41cf-a149-367469f22034",
+                    "foreignCollection": "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+                    "foreignField": [
+                        "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+                        "b558b54d-4479-4f87-9807-0ead61ba0f7d"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "ca96d375-7ae0-40e4-a6a9-d79c90859fb1",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "manager_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "staffs",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "cfa57e03-b6d0-4955-b2d6-bd2ee552487c"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+            "bucketId": "51c6d65d-910b-4728-a481-97a28e5725b0",
+            "comments": "",
+            "description": "",
+            "primaryKey": [],
+            "uniqueKey": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "orders",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "order_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "98f891bf-c3fb-43dc-a0c9-cc6a51496abf"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "unique": false,
+                    "GUID": "4b3579c5-1532-47f6-9c8e-89c7344c43d2",
+                    "childRelationships": [
+                        "4ec21ea3-5cb6-49e1-a8ca-623efe5aa344"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "e946a348-0f9e-43c7-88a8-8ceb83955159",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "order_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "orders",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "customer_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "28e97e99-d5de-460f-9f85-088ead6c7590"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "unique": false,
+                    "GUID": "d1941faf-2d6c-4e73-8bdf-30acd7b272a0",
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "5f4b8f64-2d15-49f1-a046-2421c0ed8d41",
+                    "foreignCollection": "52510e0e-f02b-4096-ab78-32efaff9d7a9",
+                    "foreignField": [
+                        "52510e0e-f02b-4096-ab78-32efaff9d7a9",
+                        "d18c21bc-bf21-4ace-93d3-644f5944982f"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "7e192d80-4a61-43e9-bce6-28e5cc5f5c6c",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "customer_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "orders",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "order_status",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "91658d95-9196-46d2-a91a-06cac450f88f"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "GUID": "553150fd-2acc-4ce9-9580-7a3f34bc3b18",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "23dff6dc-d322-49d6-9a2b-9a6c22bca951",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "order_status",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "orders",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "order_date",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "childType": "date",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "primaryKey": false,
+                    "GUID": "7fb2bb9e-0e53-4981-b5f1-f926e2300d00",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "6d59833e-5270-4e75-bbd1-45ef80f97348",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "order_date",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "orders",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "required_date",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "childType": "date",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "primaryKey": false,
+                    "GUID": "7668e943-abaf-4cbc-80ad-e192adda882f",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "84720167-ce3c-4bff-9305-7b158b629053",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "required_date",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "orders",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "shipped_date",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "childType": "date",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": false,
+                    "unique": false,
+                    "primaryKey": false,
+                    "GUID": "1bb52424-28a5-46f4-9a20-8298c0431252",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "831c384e-2d79-4e2b-8536-8b2248b3493e",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "shipped_date",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "orders",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "store_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "017fe5c5-0464-474c-80b2-10226f9ae500"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "GUID": "2283d0d1-ea8d-45cf-b556-fe64b2cec3cc",
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "cd64d8f2-cbee-44f6-a35d-46c43e84dbbc",
+                    "foreignCollection": "0b6410ad-1914-4f09-9d21-912773571428",
+                    "foreignField": [
+                        "0b6410ad-1914-4f09-9d21-912773571428",
+                        "07336bf6-62cb-459b-83db-3f8555d5fedd"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "c9c6dacc-af12-4d8d-844f-3e916e5b5dbc",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "store_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "orders",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "staff_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "926de657-5ab1-4685-aca9-186a2d1c5dc1"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "GUID": "589bb672-f0d6-4b67-b891-fc111a1c375d",
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "c26502d4-8845-4d15-a924-79cba73b9f6d",
+                    "foreignCollection": "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+                    "foreignField": [
+                        "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+                        "b558b54d-4479-4f87-9807-0ead61ba0f7d"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "b693e66e-8f93-4526-bc9f-33fd58331841",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "staff_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "orders",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "770cef58-b6d3-4a12-853a-fa28e706f67c"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "eb00f0cc-eb04-477d-ab0f-b36026127bc6",
+            "bucketId": "51c6d65d-910b-4728-a481-97a28e5725b0",
+            "comments": "",
+            "description": "",
+            "primaryKey": [],
+            "uniqueKey": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "order_items",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "order_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "b27d4bb6-cb4a-4d84-bee9-c103de5e2c4c"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "GUID": "e9f47850-b22c-4b5d-a809-89a560f0442a",
+                    "compositeKey": [
+                        "compositePrimaryKey"
+                    ],
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "4ec21ea3-5cb6-49e1-a8ca-623efe5aa344",
+                    "foreignCollection": "eb00f0cc-eb04-477d-ab0f-b36026127bc6",
+                    "foreignField": [
+                        "eb00f0cc-eb04-477d-ab0f-b36026127bc6",
+                        "4b3579c5-1532-47f6-9c8e-89c7344c43d2"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "88ea1643-2ad3-4ecb-8a37-bc41c4b25456",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "order_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "order_items",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "item_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "54533468-28c0-4803-9b9f-da4479e37264"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "GUID": "a52af9e2-aa57-4e7e-8983-17720eb5082d",
+                    "compositeKey": [
+                        "compositePrimaryKey"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "6bfd763a-ead7-4fb8-8d7d-6d6771d4d368",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "item_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "order_items",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "product_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "67614423-42d9-446d-aa1b-2ae1dfb3b515"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "GUID": "dbbd16f7-92d6-4999-b291-503afab53687",
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "686044e1-e4fe-4330-967a-2553b446978c",
+                    "foreignCollection": "69aec577-d593-48f3-9962-95497e46f428",
+                    "foreignField": [
+                        "69aec577-d593-48f3-9962-95497e46f428",
+                        "073e44ae-e23d-49b2-ad6f-030319d5693e"
+                    ],
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "45ac7495-69da-407a-9f66-f3a9cffdf195",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "product_id",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "order_items",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "quantity",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "2663d264-a960-4a77-a0e8-495ec6f96610"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "unique": false,
+                    "GUID": "0d0ded43-c01b-4bff-8011-86bb96b5c3b9",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "ab56c8ee-4af0-48ad-9973-3cdbdf01f55b",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "quantity",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "order_items",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "list_price",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "8dac1ea3-dbdc-4086-ab3c-e0f266648feb"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "required": true,
+                    "mode": "decimal",
+                    "precision": 10,
+                    "scale": 2,
+                    "unique": false,
+                    "GUID": "a498a4ee-9eac-42da-b8e6-bde93582aea1",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "47911bd7-9a20-436e-b4d2-f29be729ffe8",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "list_price",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "order_items",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "discount",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "86f1e1bd-48e5-4bc6-8bc2-eb3e9a586fef"
+                    },
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "default": 0,
+                    "required": true,
+                    "mode": "decimal",
+                    "precision": 4,
+                    "scale": 2,
+                    "unique": false,
+                    "GUID": "263bf19a-62fe-41a2-a005-923ca615d7ab",
+                    "error": {},
+                    "sources": [
+                        {
+                            "GUID": "da25269a-50ba-492d-a554-9e39484fe5a3",
+                            "lineageSourceGUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+                            "lineageSourceAttrBusName": "discount",
+                            "lineageSourceAttrTechName": "",
+                            "lineageSrcEntityBusName": "order_items",
+                            "lineageSrcEntityTechName": "",
+                            "lineageSourceContainerBusName": "sales",
+                            "lineageSourceContainerTechName": ""
+                        }
+                    ]
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "daee3af9-0b8a-4c10-a302-dc144f00a168"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "62b72318-1f83-4db9-95c9-561ea187366f",
+            "bucketId": "51c6d65d-910b-4728-a481-97a28e5725b0",
+            "comments": "",
+            "description": "",
+            "primaryKey": [
+                {
+                    "GUID": "367093fd-8021-49f3-a419-04915cd908f7",
+                    "constraintName": "",
+                    "compositePrimaryKey": [
+                        {
+                            "keyId": "e9f47850-b22c-4b5d-a809-89a560f0442a",
+                            "type": "ascending"
+                        },
+                        {
+                            "keyId": "a52af9e2-aa57-4e7e-8983-17720eb5082d",
+                            "type": "ascending"
+                        }
+                    ]
+                }
+            ],
+            "uniqueKey": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "name": "production",
+            "type": "bucket",
+            "collectionIds": [
+                "2026ba9f-b344-47f6-9401-3d2dab001471",
+                "312883f8-faf2-4950-8096-066093d999d0",
+                "69aec577-d593-48f3-9962-95497e46f428",
+                "99bcd279-366e-4dc7-ac16-578076ef0ef9"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "db50e0f4-7d4c-4414-bc99-e4b36aa0e4ca",
+            "hackoladeMeta": {}
+        },
+        {
+            "name": "sales",
+            "type": "bucket",
+            "collectionIds": [
+                "52510e0e-f02b-4096-ab78-32efaff9d7a9",
+                "0b6410ad-1914-4f09-9d21-912773571428",
+                "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+                "eb00f0cc-eb04-477d-ab0f-b36026127bc6",
+                "62b72318-1f83-4db9-95c9-561ea187366f"
+            ],
+            "backgroundColor": {
+                "r": 0,
+                "g": 138,
+                "b": 0,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "51c6d65d-910b-4728-a481-97a28e5725b0",
+            "hackoladeMeta": {}
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "categories.category_id to products.category_id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "2026ba9f-b344-47f6-9401-3d2dab001471",
+                    "68eee4b5-cc5f-4630-a32c-e651a8b4b592"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "69aec577-d593-48f3-9962-95497e46f428",
+                    "319fbaa9-3af7-4a3d-a864-f84f9d4d7921"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "GUID": "a9cd58dd-5e99-44b7-8cf7-69f60c95ca12",
+            "level": "field",
+            "parentCollection": "2026ba9f-b344-47f6-9401-3d2dab001471",
+            "childCollection": "69aec577-d593-48f3-9962-95497e46f428",
+            "bucketId": "db50e0f4-7d4c-4414-bc99-e4b36aa0e4ca",
+            "lineSize": 2
+        },
+        {
+            "name": "brands.brand_id to products.brand_id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "312883f8-faf2-4950-8096-066093d999d0",
+                    "5ae0474d-3c61-40b3-a9eb-e6925d0a8a36"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "69aec577-d593-48f3-9962-95497e46f428",
+                    "56fe4f4e-2133-4aa1-ab67-488faea7492d"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "GUID": "acefaf2b-a217-41ca-be75-7c68dd3bdc7b",
+            "level": "field",
+            "parentCollection": "312883f8-faf2-4950-8096-066093d999d0",
+            "childCollection": "69aec577-d593-48f3-9962-95497e46f428",
+            "bucketId": "db50e0f4-7d4c-4414-bc99-e4b36aa0e4ca",
+            "lineSize": 2
+        },
+        {
+            "name": "products.product_id to order_items.product_id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "69aec577-d593-48f3-9962-95497e46f428",
+                    "073e44ae-e23d-49b2-ad6f-030319d5693e"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "62b72318-1f83-4db9-95c9-561ea187366f",
+                    "dbbd16f7-92d6-4999-b291-503afab53687"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "GUID": "686044e1-e4fe-4330-967a-2553b446978c",
+            "level": "field",
+            "parentCollection": "69aec577-d593-48f3-9962-95497e46f428",
+            "childCollection": "62b72318-1f83-4db9-95c9-561ea187366f",
+            "bucketId": "db50e0f4-7d4c-4414-bc99-e4b36aa0e4ca",
+            "lineSize": 2
+        },
+        {
+            "name": "products.product_id to stocks.product_id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "69aec577-d593-48f3-9962-95497e46f428",
+                    "073e44ae-e23d-49b2-ad6f-030319d5693e"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "99bcd279-366e-4dc7-ac16-578076ef0ef9",
+                    "0a33ee32-ae36-4627-b83b-82419b027f1b"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "GUID": "5956c4a6-cb85-42b5-a69c-e48b1f8afedd",
+            "level": "field",
+            "parentCollection": "69aec577-d593-48f3-9962-95497e46f428",
+            "childCollection": "99bcd279-366e-4dc7-ac16-578076ef0ef9",
+            "bucketId": "db50e0f4-7d4c-4414-bc99-e4b36aa0e4ca",
+            "lineSize": 2
+        },
+        {
+            "name": "stores.store_id to staffs.store_id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "0b6410ad-1914-4f09-9d21-912773571428",
+                    "07336bf6-62cb-459b-83db-3f8555d5fedd"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+                    "a5188d48-4e1e-41d1-8af2-5616ce2fe82a"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "GUID": "a2fb0153-3eea-440b-aca2-50d29a8e1d62",
+            "level": "field",
+            "parentCollection": "0b6410ad-1914-4f09-9d21-912773571428",
+            "childCollection": "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+            "bucketId": "51c6d65d-910b-4728-a481-97a28e5725b0",
+            "lineSize": 2
+        },
+        {
+            "name": "staffs.staff_id to staffs.manager_id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+                    "b558b54d-4479-4f87-9807-0ead61ba0f7d"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+                    "579716d6-24f2-4364-9aca-66237819e1b6"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "GUID": "f69c6de5-6833-41cf-a149-367469f22034",
+            "level": "field",
+            "parentCollection": "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+            "childCollection": "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+            "bucketId": "51c6d65d-910b-4728-a481-97a28e5725b0",
+            "lineSize": 2
+        },
+        {
+            "name": "customers.customer_id to orders.customer_id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "52510e0e-f02b-4096-ab78-32efaff9d7a9",
+                    "d18c21bc-bf21-4ace-93d3-644f5944982f"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "eb00f0cc-eb04-477d-ab0f-b36026127bc6",
+                    "d1941faf-2d6c-4e73-8bdf-30acd7b272a0"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "GUID": "5f4b8f64-2d15-49f1-a046-2421c0ed8d41",
+            "level": "field",
+            "parentCollection": "52510e0e-f02b-4096-ab78-32efaff9d7a9",
+            "childCollection": "eb00f0cc-eb04-477d-ab0f-b36026127bc6",
+            "bucketId": "51c6d65d-910b-4728-a481-97a28e5725b0",
+            "lineSize": 2
+        },
+        {
+            "name": "stores.store_id to orders.store_id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "0b6410ad-1914-4f09-9d21-912773571428",
+                    "07336bf6-62cb-459b-83db-3f8555d5fedd"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "eb00f0cc-eb04-477d-ab0f-b36026127bc6",
+                    "2283d0d1-ea8d-45cf-b556-fe64b2cec3cc"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "GUID": "cd64d8f2-cbee-44f6-a35d-46c43e84dbbc",
+            "level": "field",
+            "parentCollection": "0b6410ad-1914-4f09-9d21-912773571428",
+            "childCollection": "eb00f0cc-eb04-477d-ab0f-b36026127bc6",
+            "bucketId": "51c6d65d-910b-4728-a481-97a28e5725b0",
+            "lineSize": 2
+        },
+        {
+            "name": "staffs.staff_id to orders.staff_id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+                    "b558b54d-4479-4f87-9807-0ead61ba0f7d"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "eb00f0cc-eb04-477d-ab0f-b36026127bc6",
+                    "589bb672-f0d6-4b67-b891-fc111a1c375d"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "GUID": "c26502d4-8845-4d15-a924-79cba73b9f6d",
+            "level": "field",
+            "parentCollection": "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+            "childCollection": "eb00f0cc-eb04-477d-ab0f-b36026127bc6",
+            "bucketId": "51c6d65d-910b-4728-a481-97a28e5725b0",
+            "lineSize": 2
+        },
+        {
+            "name": "orders.order_id to order_items.order_id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "eb00f0cc-eb04-477d-ab0f-b36026127bc6",
+                    "4b3579c5-1532-47f6-9c8e-89c7344c43d2"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "62b72318-1f83-4db9-95c9-561ea187366f",
+                    "e9f47850-b22c-4b5d-a809-89a560f0442a"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "GUID": "4ec21ea3-5cb6-49e1-a8ca-623efe5aa344",
+            "level": "field",
+            "parentCollection": "eb00f0cc-eb04-477d-ab0f-b36026127bc6",
+            "childCollection": "62b72318-1f83-4db9-95c9-561ea187366f",
+            "bucketId": "51c6d65d-910b-4728-a481-97a28e5725b0",
+            "lineSize": 2
+        },
+        {
+            "name": "stores.store_id to stocks.store_id",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "0b6410ad-1914-4f09-9d21-912773571428",
+                    "07336bf6-62cb-459b-83db-3f8555d5fedd"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "99bcd279-366e-4dc7-ac16-578076ef0ef9",
+                    "4c86a545-42ac-4e99-be81-c33319d6dc2c"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "GUID": "f140a203-6eb9-4b62-9622-5769fe6c7275",
+            "level": "field",
+            "parentCollection": "0b6410ad-1914-4f09-9d21-912773571428",
+            "childCollection": "99bcd279-366e-4dc7-ac16-578076ef0ef9",
+            "bucketId": "51c6d65d-910b-4728-a481-97a28e5725b0",
+            "lineSize": 2
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "5940dd4d-1803-4f4d-8137-3a765891e930": "RE'd from DDL file",
+        "db50e0f4-7d4c-4414-bc99-e4b36aa0e4ca": "production",
+        "51c6d65d-910b-4728-a481-97a28e5725b0": "sales",
+        "68eee4b5-cc5f-4630-a32c-e651a8b4b592": "category_id",
+        "25cc75bb-25cb-401c-81e3-04e4e391d409": "category_name",
+        "2026ba9f-b344-47f6-9401-3d2dab001471": "categories",
+        "5ae0474d-3c61-40b3-a9eb-e6925d0a8a36": "brand_id",
+        "479adebc-b2fb-49ae-b8f0-798283019bca": "brand_name",
+        "312883f8-faf2-4950-8096-066093d999d0": "brands",
+        "073e44ae-e23d-49b2-ad6f-030319d5693e": "product_id",
+        "c8aa56ec-6185-482e-8e92-03864c47e02d": "product_name",
+        "56fe4f4e-2133-4aa1-ab67-488faea7492d": "brand_id",
+        "319fbaa9-3af7-4a3d-a864-f84f9d4d7921": "category_id",
+        "660e8f01-efbd-4fc8-b9ae-58fe3cad7152": "model_year",
+        "97758dc3-4350-4b34-843f-a33d1590743c": "list_price",
+        "69aec577-d593-48f3-9962-95497e46f428": "products",
+        "4c86a545-42ac-4e99-be81-c33319d6dc2c": "store_id",
+        "0a33ee32-ae36-4627-b83b-82419b027f1b": "product_id",
+        "5f8bd4f0-4369-4183-a729-41f045399858": "quantity",
+        "99bcd279-366e-4dc7-ac16-578076ef0ef9": "stocks",
+        "a9cd58dd-5e99-44b7-8cf7-69f60c95ca12": "categories.category_id to products.category_id",
+        "acefaf2b-a217-41ca-be75-7c68dd3bdc7b": "brands.brand_id to products.brand_id",
+        "686044e1-e4fe-4330-967a-2553b446978c": "products.product_id to order_items.product_id",
+        "5956c4a6-cb85-42b5-a69c-e48b1f8afedd": "products.product_id to stocks.product_id",
+        "d18c21bc-bf21-4ace-93d3-644f5944982f": "customer_id",
+        "7c5500c9-f941-48d0-94e6-bd50f1748185": "first_name",
+        "70f1fd48-95d5-4db2-9d2d-0c4e5399cb3e": "last_name",
+        "0c01da46-d3ca-4fab-a6fa-aa4bbc0e30d9": "phone",
+        "8d1cc847-6178-4d17-a61a-17515c4bafeb": "email",
+        "6867db95-d67a-41f8-9296-48811f11c3de": "street",
+        "c35d7ef4-2830-4179-843f-b33462f31ad7": "city",
+        "ca115755-8063-42b6-8d17-8de95d64139c": "state",
+        "a43292c8-669d-4437-8151-64c0cb2273b8": "zip_code",
+        "52510e0e-f02b-4096-ab78-32efaff9d7a9": "customers",
+        "07336bf6-62cb-459b-83db-3f8555d5fedd": "store_id",
+        "24498c88-bd1c-4bda-8624-97dd36fdd875": "store_name",
+        "6d0446c6-1c33-4ac0-b33d-ed720269d5e8": "phone",
+        "11a79ac3-c356-4642-93fd-dea9fa117e59": "email",
+        "33449475-e27c-4061-807e-d93c1458c680": "street",
+        "f0c8dc08-ea47-4f6d-bfb5-6038a7bf0bef": "city",
+        "f94c73e0-2769-4d8e-bbe9-1007f95a6b1e": "state",
+        "c97d6bb7-f4b4-4120-ae25-dac507d484e0": "zip_code",
+        "0b6410ad-1914-4f09-9d21-912773571428": "stores",
+        "b558b54d-4479-4f87-9807-0ead61ba0f7d": "staff_id",
+        "6e749eee-76e1-4d45-8e52-421cfc4ca53c": "first_name",
+        "b351e735-90b4-474c-badf-9b4e8996b082": "last_name",
+        "34a6268b-37a8-4c95-b625-e05b4cb5c1ba": "email",
+        "4433f0a4-746a-43ae-a04e-9349d7b32cec": "phone",
+        "b9ee55e6-0811-4f23-9885-120b8bbaa64a": "active",
+        "a5188d48-4e1e-41d1-8af2-5616ce2fe82a": "store_id",
+        "579716d6-24f2-4364-9aca-66237819e1b6": "manager_id",
+        "4ede0f18-8b56-4e92-952d-4e3289c75bb1": "staffs",
+        "4b3579c5-1532-47f6-9c8e-89c7344c43d2": "order_id",
+        "d1941faf-2d6c-4e73-8bdf-30acd7b272a0": "customer_id",
+        "553150fd-2acc-4ce9-9580-7a3f34bc3b18": "order_status",
+        "7fb2bb9e-0e53-4981-b5f1-f926e2300d00": "order_date",
+        "7668e943-abaf-4cbc-80ad-e192adda882f": "required_date",
+        "1bb52424-28a5-46f4-9a20-8298c0431252": "shipped_date",
+        "2283d0d1-ea8d-45cf-b556-fe64b2cec3cc": "store_id",
+        "589bb672-f0d6-4b67-b891-fc111a1c375d": "staff_id",
+        "eb00f0cc-eb04-477d-ab0f-b36026127bc6": "orders",
+        "e9f47850-b22c-4b5d-a809-89a560f0442a": "order_id",
+        "a52af9e2-aa57-4e7e-8983-17720eb5082d": "item_id",
+        "dbbd16f7-92d6-4999-b291-503afab53687": "product_id",
+        "0d0ded43-c01b-4bff-8011-86bb96b5c3b9": "quantity",
+        "a498a4ee-9eac-42da-b8e6-bde93582aea1": "list_price",
+        "263bf19a-62fe-41a2-a005-923ca615d7ab": "discount",
+        "62b72318-1f83-4db9-95c9-561ea187366f": "order_items",
+        "a2fb0153-3eea-440b-aca2-50d29a8e1d62": "stores.store_id to staffs.store_id",
+        "f69c6de5-6833-41cf-a149-367469f22034": "staffs.staff_id to staffs.manager_id",
+        "5f4b8f64-2d15-49f1-a046-2421c0ed8d41": "customers.customer_id to orders.customer_id",
+        "cd64d8f2-cbee-44f6-a35d-46c43e84dbbc": "stores.store_id to orders.store_id",
+        "c26502d4-8845-4d15-a924-79cba73b9f6d": "staffs.staff_id to orders.staff_id",
+        "4ec21ea3-5cb6-49e1-a8ca-623efe5aa344": "orders.order_id to order_items.order_id",
+        "f140a203-6eb9-4b62-9622-5769fe6c7275": "stores.store_id to stocks.store_id"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "09a6dc46-3d5e-4673-8a6c-4b0fd0ae0e34"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "5b3f80b0-f1cd-4543-8cbc-5412b665eddb"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "b0bcf178-2b57-4163-855e-bbd0aaeba10c"
+    },
+    "sources": [
+        {
+            "GUID": "5940dd4d-1803-4f4d-8137-3a765891e930",
+            "sourceName": "RE'd from DDL file",
+            "lineageTimestamp": "2023-04-06 13:47:33 GMT+5:30",
+            "lineageSourceType": "DDL",
+            "lineageSourceFormat": "File",
+            "lineageFilePathName": "C:\\Users\\mayur.pingale\\OneDrive - Abzooba India Infotech Pvt. Ltd\\Documents\\Office Work\\Pepsico\\BikeStores Sample Database - create objects.sql"
+        }
+    ],
+    "decorativeSymbols": [],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2023-04-06T08:16:31.523Z",
+    "GUID": "6f612b20-8b4d-4f1b-97cf-1ce65480fda2",
+    "isLineageEnabled": true,
+    "hackoladeMeta": {
+        "validationErrors": {}
+    },
+    "lastModifTS": "2023-04-06T08:17:48.125Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Polyglot",
+        "pluginVersion": "0.0.1",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.9.9"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "2026ba9f-b344-47f6-9401-3d2dab001471",
+                        "x": 2175,
+                        "y": 1050,
+                        "width": 264,
+                        "height": 66,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "312883f8-faf2-4950-8096-066093d999d0",
+                        "x": 1875,
+                        "y": 1050,
+                        "width": 250,
+                        "height": 66,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "69aec577-d593-48f3-9962-95497e46f428",
+                        "x": 2075,
+                        "y": 1200,
+                        "width": 279,
+                        "height": 138,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "99bcd279-366e-4dc7-ac16-578076ef0ef9",
+                        "x": 1825,
+                        "y": 1200,
+                        "width": 194,
+                        "height": 84,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "52510e0e-f02b-4096-ab78-32efaff9d7a9",
+                        "x": 1050,
+                        "y": 1500,
+                        "width": 248,
+                        "height": 192,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "0b6410ad-1914-4f09-9d21-912773571428",
+                        "x": 1350,
+                        "y": 1500,
+                        "width": 245,
+                        "height": 174,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+                        "x": 1500,
+                        "y": 1050,
+                        "width": 245,
+                        "height": 174,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "eb00f0cc-eb04-477d-ab0f-b36026127bc6",
+                        "x": 1200,
+                        "y": 1050,
+                        "width": 224,
+                        "height": 174,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "62b72318-1f83-4db9-95c9-561ea187366f",
+                        "x": 1300,
+                        "y": 1300,
+                        "width": 257,
+                        "height": 138,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1775,
+                        "y": 1000,
+                        "GUID": "db50e0f4-7d4c-4414-bc99-e4b36aa0e4ca"
+                    },
+                    {
+                        "x": 1000,
+                        "y": 1000,
+                        "GUID": "51c6d65d-910b-4728-a481-97a28e5725b0"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "2026ba9f-b344-47f6-9401-3d2dab001471",
+                            "size": 100,
+                            "x": 1400,
+                            "y": 1500
+                        },
+                        {
+                            "GUID": "312883f8-faf2-4950-8096-066093d999d0",
+                            "size": 100,
+                            "x": 1150,
+                            "y": 1300
+                        },
+                        {
+                            "GUID": "69aec577-d593-48f3-9962-95497e46f428",
+                            "size": 100,
+                            "x": 1150,
+                            "y": 1550
+                        },
+                        {
+                            "GUID": "99bcd279-366e-4dc7-ac16-578076ef0ef9",
+                            "size": 100,
+                            "x": 1600,
+                            "y": 1250
+                        },
+                        {
+                            "GUID": "52510e0e-f02b-4096-ab78-32efaff9d7a9",
+                            "size": 100,
+                            "x": 1400,
+                            "y": 1750
+                        },
+                        {
+                            "GUID": "0b6410ad-1914-4f09-9d21-912773571428",
+                            "size": 100,
+                            "x": 1650,
+                            "y": 1750
+                        },
+                        {
+                            "GUID": "4ede0f18-8b56-4e92-952d-4e3289c75bb1",
+                            "size": 100,
+                            "x": 1650,
+                            "y": 1500
+                        },
+                        {
+                            "GUID": "eb00f0cc-eb04-477d-ab0f-b36026127bc6",
+                            "size": 100,
+                            "x": 1050,
+                            "y": 1800
+                        },
+                        {
+                            "GUID": "62b72318-1f83-4db9-95c9-561ea187366f",
+                            "size": 100,
+                            "x": 1350,
+                            "y": 1050
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 40,
+                            "y": 40,
+                            "GUID": "db50e0f4-7d4c-4414-bc99-e4b36aa0e4ca"
+                        },
+                        {
+                            "x": 80,
+                            "y": 80,
+                            "GUID": "51c6d65d-910b-4728-a481-97a28e5725b0"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 267
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
