@@ -3370,7 +3370,32 @@
         }
     ],
     "users": [],
-    "diagramViews": [],
+    "diagramViews": [
+        {
+            "GUID": "39212f71-509d-4c8c-bf06-526c270681ed",
+            "name": "New Diagram View",
+            "buckets": [
+                "985ec9f1-ed41-4353-8dd6-150de6263bfb",
+                "b022eecc-d194-4178-82b7-ad70fb1655e1",
+                "a2d0a3af-784c-496e-a598-d4bb2f3a4467",
+                "0289e755-901b-4f6e-9bf1-63c6e89fc204",
+                "57473ac5-978f-406e-96cc-2749effed3f3",
+                "02749d85-0902-4b73-9b16-905db69589da",
+                "246748ff-607a-404c-b7d6-7b4c1d596f96",
+                "04990bb5-99a3-4c5a-ad4c-31aedcacc9a3"
+            ],
+            "entities": [
+                "6ac28ac6-2551-41d8-acb0-926d9a8a1125",
+                "713f2cad-fcc6-4c8f-87ca-5204ab2dbce4",
+                "b8999cde-d385-4c8d-bc05-26c53348f352",
+                "835b49d7-9fd7-41e3-b71f-6bf7f5cad0f0",
+                "563986d8-e6d8-4f3c-a7a2-d2d1cf1a77ae",
+                "cb45ce1e-52a6-4e01-9fd1-6db4943ceb8f",
+                "6470e74a-7568-4310-a557-e8ddaa411d4f",
+                "b325fc49-7830-41d3-a3c5-20622787cc0f"
+            ]
+        }
+    ],
     "idToNameHashTable": {
         "04990bb5-99a3-4c5a-ad4c-31aedcacc9a3": "XTNMaterialCategoryPlanUOM",
         "bad3a8b4-e1a2-4da4-8138-31b0fc26c7ea": "name",
@@ -3503,7 +3528,8 @@
         "08cfdb13-9751-4b7b-84ef-b8392ae3fbd7": "fk username-or-email.Login email to email-password-recovery-code.Login email",
         "ed7f149e-7a2f-445c-96aa-2806af34f219": "fk email.Login email to email-password-recovery-code.Login email",
         "0e65322a-d0ff-48d4-ab89-1313db8d8ac1": "Last name(1)",
-        "2c7ee3e4-a4f2-49aa-983a-24a42a532f24": "Recovery code"
+        "2c7ee3e4-a4f2-49aa-983a-24a42a532f24": "Recovery code",
+        "39212f71-509d-4c8c-bf06-526c270681ed": "New Diagram View"
     },
     "definitions": {
         "type": "definitions",
@@ -3527,7 +3553,7 @@
     "creationTS": "2023-04-06T07:48:17.053Z",
     "GUID": "0e9c4acd-82d4-4f9b-bf92-b2ef4702bf8e",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-04-06T08:07:22.124Z",
+    "lastModifTS": "2023-04-06T08:14:32.594Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -3777,7 +3803,394 @@
                     "forceLayout": true,
                     "defaultLinkLength": 296
                 },
-                "diagramViews": [],
+                "diagramViews": [
+                    {
+                        "GUID": "39212f71-509d-4c8c-bf06-526c270681ed",
+                        "entities": [
+                            {
+                                "GUID": "6ac28ac6-2551-41d8-acb0-926d9a8a1125",
+                                "x": 1981,
+                                "y": 1785,
+                                "width": 245,
+                                "height": 102,
+                                "color": {
+                                    "hex": "#2196F3"
+                                }
+                            },
+                            {
+                                "GUID": "713f2cad-fcc6-4c8f-87ca-5204ab2dbce4",
+                                "x": 1981,
+                                "y": 1050,
+                                "width": 331,
+                                "height": 156,
+                                "color": {
+                                    "hex": "#2196F3"
+                                }
+                            },
+                            {
+                                "GUID": "b8999cde-d385-4c8d-bc05-26c53348f352",
+                                "x": 1580,
+                                "y": 1319,
+                                "width": 236,
+                                "height": 102,
+                                "color": {
+                                    "hex": "#2196F3"
+                                }
+                            },
+                            {
+                                "GUID": "835b49d7-9fd7-41e3-b71f-6bf7f5cad0f0",
+                                "x": 1981,
+                                "y": 1301,
+                                "width": 295,
+                                "height": 174,
+                                "color": {
+                                    "hex": "#2196F3"
+                                }
+                            },
+                            {
+                                "GUID": "563986d8-e6d8-4f3c-a7a2-d2d1cf1a77ae",
+                                "x": 1580,
+                                "y": 1516,
+                                "width": 236,
+                                "height": 102,
+                                "color": {
+                                    "hex": "#2196F3"
+                                }
+                            },
+                            {
+                                "GUID": "cb45ce1e-52a6-4e01-9fd1-6db4943ceb8f",
+                                "x": 1981,
+                                "y": 1570,
+                                "width": 235,
+                                "height": 120,
+                                "color": {
+                                    "hex": "#2196F3"
+                                }
+                            },
+                            {
+                                "GUID": "6470e74a-7568-4310-a557-e8ddaa411d4f",
+                                "x": 1580,
+                                "y": 1050,
+                                "width": 321,
+                                "height": 174,
+                                "color": {
+                                    "hex": "#2196F3"
+                                }
+                            },
+                            {
+                                "GUID": "b325fc49-7830-41d3-a3c5-20622787cc0f",
+                                "x": 1050,
+                                "y": 1050,
+                                "width": 450,
+                                "height": 1000,
+                                "color": {
+                                    "hex": "#2196F3"
+                                }
+                            }
+                        ],
+                        "buckets": [
+                            {
+                                "x": 1931,
+                                "y": 1735,
+                                "GUID": "985ec9f1-ed41-4353-8dd6-150de6263bfb"
+                            },
+                            {
+                                "x": 1931,
+                                "y": 1000,
+                                "GUID": "b022eecc-d194-4178-82b7-ad70fb1655e1"
+                            },
+                            {
+                                "x": 1530,
+                                "y": 1269,
+                                "GUID": "a2d0a3af-784c-496e-a598-d4bb2f3a4467"
+                            },
+                            {
+                                "x": 1931,
+                                "y": 1251,
+                                "GUID": "0289e755-901b-4f6e-9bf1-63c6e89fc204"
+                            },
+                            {
+                                "x": 1530,
+                                "y": 1466,
+                                "GUID": "57473ac5-978f-406e-96cc-2749effed3f3"
+                            },
+                            {
+                                "x": 1931,
+                                "y": 1520,
+                                "GUID": "02749d85-0902-4b73-9b16-905db69589da"
+                            },
+                            {
+                                "x": 1530,
+                                "y": 1000,
+                                "GUID": "246748ff-607a-404c-b7d6-7b4c1d596f96"
+                            },
+                            {
+                                "x": 1000,
+                                "y": 1000,
+                                "GUID": "04990bb5-99a3-4c5a-ad4c-31aedcacc9a3"
+                            }
+                        ],
+                        "graphView": {
+                            "erd": [
+                                {
+                                    "GUID": "6ac28ac6-2551-41d8-acb0-926d9a8a1125",
+                                    "size": 100,
+                                    "x": 21449.168220047824,
+                                    "y": 20960.30036422617
+                                },
+                                {
+                                    "GUID": "713f2cad-fcc6-4c8f-87ca-5204ab2dbce4",
+                                    "size": 100,
+                                    "x": 21041.20706920589,
+                                    "y": 23563.75652605908
+                                },
+                                {
+                                    "GUID": "b8999cde-d385-4c8d-bc05-26c53348f352",
+                                    "size": 100,
+                                    "x": 21049.11500595314,
+                                    "y": 21802.86853710682
+                                },
+                                {
+                                    "GUID": "835b49d7-9fd7-41e3-b71f-6bf7f5cad0f0",
+                                    "size": 100,
+                                    "x": 21287.761482697275,
+                                    "y": 21978.709478640194
+                                },
+                                {
+                                    "GUID": "563986d8-e6d8-4f3c-a7a2-d2d1cf1a77ae",
+                                    "size": 100,
+                                    "x": 20832.808162379788,
+                                    "y": 21600.326646948633
+                                },
+                                {
+                                    "GUID": "cb45ce1e-52a6-4e01-9fd1-6db4943ceb8f",
+                                    "size": 100,
+                                    "x": 21320.799307140423,
+                                    "y": 21684.27180212527
+                                },
+                                {
+                                    "GUID": "6470e74a-7568-4310-a557-e8ddaa411d4f",
+                                    "size": 100,
+                                    "x": 20862.463325388147,
+                                    "y": 22032.758739941284,
+                                    "isPined": true
+                                },
+                                {
+                                    "GUID": "b325fc49-7830-41d3-a3c5-20622787cc0f",
+                                    "size": 100,
+                                    "x": 20904.816517254807,
+                                    "y": 20992.019140263405
+                                }
+                            ],
+                            "buckets": [
+                                {
+                                    "x": 21401.895871683628,
+                                    "y": 20930.20752899811,
+                                    "GUID": "985ec9f1-ed41-4353-8dd6-150de6263bfb"
+                                },
+                                {
+                                    "x": 21001.321962243208,
+                                    "y": 23517.35294052928,
+                                    "GUID": "b022eecc-d194-4178-82b7-ad70fb1655e1"
+                                },
+                                {
+                                    "x": 21012.741173824797,
+                                    "y": 21777.11854987723,
+                                    "GUID": "a2d0a3af-784c-496e-a598-d4bb2f3a4467"
+                                },
+                                {
+                                    "x": 21272.936914911497,
+                                    "y": 21940.723664503632,
+                                    "GUID": "0289e755-901b-4f6e-9bf1-63c6e89fc204"
+                                },
+                                {
+                                    "x": 20655.69560856334,
+                                    "y": 21419.64334592577,
+                                    "GUID": "57473ac5-978f-406e-96cc-2749effed3f3"
+                                },
+                                {
+                                    "x": 21293.4629138631,
+                                    "y": 21653.426561500666,
+                                    "GUID": "02749d85-0902-4b73-9b16-905db69589da"
+                                },
+                                {
+                                    "x": 20816.335900379658,
+                                    "y": 22001.026982089905,
+                                    "GUID": "246748ff-607a-404c-b7d6-7b4c1d596f96"
+                                },
+                                {
+                                    "x": 20870.492254752837,
+                                    "y": 20962.964857329727,
+                                    "GUID": "04990bb5-99a3-4c5a-ad4c-31aedcacc9a3"
+                                }
+                            ],
+                            "decorativeSymbols": [],
+                            "forceLayout": true,
+                            "defaultLinkLength": 300
+                        },
+                        "displayOptions": {
+                            "hideErdRelationshipsNames": false
+                        },
+                        "relationships": [
+                            {
+                                "GUID": "c5f38f54-c8e9-48c1-a3dc-c8a83ff813a4",
+                                "autoPositioning": true,
+                                "sides": [
+                                    "bottom",
+                                    "top"
+                                ],
+                                "shape": [
+                                    {
+                                        "x": 1740.5,
+                                        "y": 1224
+                                    },
+                                    {
+                                        "x": 1740.5,
+                                        "y": 1271.5
+                                    },
+                                    {
+                                        "x": 1698,
+                                        "y": 1271.5
+                                    },
+                                    {
+                                        "x": 1698,
+                                        "y": 1319
+                                    }
+                                ]
+                            },
+                            {
+                                "GUID": "e1f6a7dc-5b04-4b1b-a59f-2b4dbe3b60ef",
+                                "autoPositioning": true,
+                                "sides": [
+                                    "left",
+                                    "right"
+                                ],
+                                "shape": [
+                                    {
+                                        "x": 1981,
+                                        "y": 1359
+                                    },
+                                    {
+                                        "x": 1898.5,
+                                        "y": 1359
+                                    },
+                                    {
+                                        "x": 1898.5,
+                                        "y": 1344.5
+                                    },
+                                    {
+                                        "x": 1816,
+                                        "y": 1344.5
+                                    }
+                                ]
+                            },
+                            {
+                                "GUID": "fda81f36-b398-4836-bf35-b152a67c4d2a",
+                                "autoPositioning": true,
+                                "sides": [
+                                    "left",
+                                    "right"
+                                ],
+                                "shape": [
+                                    {
+                                        "x": 1981,
+                                        "y": 1630
+                                    },
+                                    {
+                                        "x": 1898.5,
+                                        "y": 1630
+                                    },
+                                    {
+                                        "x": 1898.5,
+                                        "y": 1395.5
+                                    },
+                                    {
+                                        "x": 1816,
+                                        "y": 1395.5
+                                    }
+                                ]
+                            },
+                            {
+                                "GUID": "d07bf23a-0c1b-4098-8b9f-92b6b41c708e",
+                                "autoPositioning": true,
+                                "sides": [
+                                    "top",
+                                    "bottom"
+                                ],
+                                "shape": [
+                                    {
+                                        "x": 1698,
+                                        "y": 1516
+                                    },
+                                    {
+                                        "x": 1698,
+                                        "y": 1468.5
+                                    },
+                                    {
+                                        "x": 1698,
+                                        "y": 1468.5
+                                    },
+                                    {
+                                        "x": 1698,
+                                        "y": 1421
+                                    }
+                                ]
+                            },
+                            {
+                                "GUID": "08cfdb13-9751-4b7b-84ef-b8392ae3fbd7",
+                                "autoPositioning": true,
+                                "sides": [
+                                    "top",
+                                    "bottom"
+                                ],
+                                "shape": [
+                                    {
+                                        "x": 2098.5,
+                                        "y": 1570
+                                    },
+                                    {
+                                        "x": 2098.5,
+                                        "y": 1522.5
+                                    },
+                                    {
+                                        "x": 2128.5,
+                                        "y": 1522.5
+                                    },
+                                    {
+                                        "x": 2128.5,
+                                        "y": 1475
+                                    }
+                                ]
+                            },
+                            {
+                                "GUID": "ed7f149e-7a2f-445c-96aa-2806af34f219",
+                                "autoPositioning": true,
+                                "sides": [
+                                    "right",
+                                    "left"
+                                ],
+                                "shape": [
+                                    {
+                                        "x": 1816,
+                                        "y": 1370
+                                    },
+                                    {
+                                        "x": 1898.5,
+                                        "y": 1370
+                                    },
+                                    {
+                                        "x": 1898.5,
+                                        "y": 1417
+                                    },
+                                    {
+                                        "x": 1981,
+                                        "y": 1417
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
                 "decorativeSymbols": [],
                 "nestedCollectionsLayout": "horizontal",
                 "options": [],
