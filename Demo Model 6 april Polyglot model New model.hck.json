@@ -2511,30 +2511,6 @@
                         "name": false,
                         "code": false
                     }
-                },
-                {
-                    "name": "Last name",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "autoincrement": {
-                        "step_num": 1
-                    },
-                    "tPrecision": 9,
-                    "primaryKey": false,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "maxLength": 7,
-                    "length": 7,
-                    "GUID": "894c4fde-ef89-4fa0-874a-063ef53450c5",
-                    "required": true,
-                    "sample": "Smith",
-                    "error": {}
                 }
             ],
             "definitions": {
@@ -3272,11 +3248,11 @@
                 "shape": [
                     {
                         "x": 2824,
-                        "y": 2380.5
+                        "y": 2371.5
                     },
                     {
                         "x": 2902.5,
-                        "y": 2380.5
+                        "y": 2371.5
                     },
                     {
                         "x": 2902.5,
@@ -3502,7 +3478,6 @@
         "e12ada24-b5a4-449c-8c27-645eec50e661": "Username",
         "44bb940a-50be-4aa2-a7ac-d7b458b443b2": "Identifier",
         "9674d576-4d81-4371-bdef-a3e14652ac17": "First name",
-        "894c4fde-ef89-4fa0-874a-063ef53450c5": "Last name",
         "563986d8-e6d8-4f3c-a7a2-d2d1cf1a77ae": "username",
         "02749d85-0902-4b73-9b16-905db69589da": "username-or-email",
         "304c2b46-3c80-4695-9b6e-172a634e168e": "Username",
@@ -3552,7 +3527,7 @@
     "creationTS": "2023-04-06T07:48:17.053Z",
     "GUID": "0e9c4acd-82d4-4f9b-bf92-b2ef4702bf8e",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-04-06T08:05:48.681Z",
+    "lastModifTS": "2023-04-06T08:07:22.124Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -3622,7 +3597,7 @@
                         "x": 2580,
                         "y": 2319,
                         "width": 244,
-                        "height": 123,
+                        "height": 105,
                         "color": {
                             "hex": "#2196F3"
                         }
