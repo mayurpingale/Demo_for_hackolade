@@ -1810,6 +1810,35 @@
                     "required": true,
                     "sample": "Smith",
                     "error": {}
+                },
+                {
+                    "name": "Recovery code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 6,
+                    "length": 6,
+                    "GUID": "2c7ee3e4-a4f2-49aa-983a-24a42a532f24",
+                    "required": true,
+                    "sample": "js5079",
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
                 }
             ],
             "definitions": {
@@ -2453,6 +2482,35 @@
                     "required": true,
                     "sample": "Jamie",
                     "error": {}
+                },
+                {
+                    "name": "Last name(1)",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 7,
+                    "length": 7,
+                    "GUID": "0e65322a-d0ff-48d4-ab89-1313db8d8ac1",
+                    "required": true,
+                    "sample": "Smith",
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
                 },
                 {
                     "name": "Last name",
@@ -3213,15 +3271,15 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 2803,
-                        "y": 2370
+                        "x": 2824,
+                        "y": 2380.5
                     },
                     {
-                        "x": 2892,
-                        "y": 2370
+                        "x": 2902.5,
+                        "y": 2380.5
                     },
                     {
-                        "x": 2892,
+                        "x": 2902.5,
                         "y": 2853
                     },
                     {
@@ -3468,7 +3526,9 @@
         "fda81f36-b398-4836-bf35-b152a67c4d2a": "fk username-or-email.Identifier to email.Identifier",
         "d07bf23a-0c1b-4098-8b9f-92b6b41c708e": "fk username.Identifier to email.Identifier",
         "08cfdb13-9751-4b7b-84ef-b8392ae3fbd7": "fk username-or-email.Login email to email-password-recovery-code.Login email",
-        "ed7f149e-7a2f-445c-96aa-2806af34f219": "fk email.Login email to email-password-recovery-code.Login email"
+        "ed7f149e-7a2f-445c-96aa-2806af34f219": "fk email.Login email to email-password-recovery-code.Login email",
+        "0e65322a-d0ff-48d4-ab89-1313db8d8ac1": "Last name(1)",
+        "2c7ee3e4-a4f2-49aa-983a-24a42a532f24": "Recovery code"
     },
     "definitions": {
         "type": "definitions",
@@ -3492,7 +3552,7 @@
     "creationTS": "2023-04-06T07:48:17.053Z",
     "GUID": "0e9c4acd-82d4-4f9b-bf92-b2ef4702bf8e",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-04-06T08:03:09.041Z",
+    "lastModifTS": "2023-04-06T08:05:48.681Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -3521,8 +3581,8 @@
                         "GUID": "6ac28ac6-2551-41d8-acb0-926d9a8a1125",
                         "x": 2580,
                         "y": 2516,
-                        "width": 223,
-                        "height": 84,
+                        "width": 253,
+                        "height": 105,
                         "color": {
                             "hex": "#2196F3"
                         }
@@ -3561,8 +3621,8 @@
                         "GUID": "563986d8-e6d8-4f3c-a7a2-d2d1cf1a77ae",
                         "x": 2580,
                         "y": 2319,
-                        "width": 223,
-                        "height": 102,
+                        "width": 244,
+                        "height": 123,
                         "color": {
                             "hex": "#2196F3"
                         }
@@ -3596,43 +3656,43 @@
                 },
                 "buckets": [
                     {
-                        "x": 2000,
-                        "y": 2000,
+                        "x": 2010,
+                        "y": 2010,
                         "GUID": "04990bb5-99a3-4c5a-ad4c-31aedcacc9a3"
                     },
                     {
-                        "x": 2530,
-                        "y": 2466,
+                        "x": 2540,
+                        "y": 2476,
                         "GUID": "985ec9f1-ed41-4353-8dd6-150de6263bfb"
                     },
                     {
-                        "x": 2931,
-                        "y": 2000,
+                        "x": 2941,
+                        "y": 2010,
                         "GUID": "b022eecc-d194-4178-82b7-ad70fb1655e1"
                     },
                     {
-                        "x": 2931,
-                        "y": 2735,
+                        "x": 2941,
+                        "y": 2745,
                         "GUID": "a2d0a3af-784c-496e-a598-d4bb2f3a4467"
                     },
                     {
-                        "x": 2931,
-                        "y": 2251,
+                        "x": 2941,
+                        "y": 2261,
                         "GUID": "0289e755-901b-4f6e-9bf1-63c6e89fc204"
                     },
                     {
-                        "x": 2530,
-                        "y": 2269,
+                        "x": 2540,
+                        "y": 2279,
                         "GUID": "57473ac5-978f-406e-96cc-2749effed3f3"
                     },
                     {
-                        "x": 2931,
-                        "y": 2520,
+                        "x": 2941,
+                        "y": 2530,
                         "GUID": "02749d85-0902-4b73-9b16-905db69589da"
                     },
                     {
-                        "x": 2530,
-                        "y": 2000,
+                        "x": 2540,
+                        "y": 2010,
                         "GUID": "246748ff-607a-404c-b7d6-7b4c1d596f96"
                     }
                 ],
