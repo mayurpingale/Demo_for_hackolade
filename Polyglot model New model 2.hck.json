@@ -1,0 +1,1911 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "access-code",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Identifier",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "74f4b383-4513-48c4-a7ac-e2604ac525e5"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "int32",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "809c087c-dab5-4be7-b26a-2c25011e44cb",
+                    "required": true,
+                    "sample": 934600,
+                    "error": {}
+                },
+                {
+                    "name": "First name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 6,
+                    "length": 6,
+                    "GUID": "7dd8fe45-63c6-4777-bd18-c414fd2dcb7f",
+                    "required": true,
+                    "sample": "Jamie",
+                    "error": {}
+                },
+                {
+                    "name": "Last name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 7,
+                    "length": 7,
+                    "GUID": "61750f5b-c687-4457-afc9-34594830ef9c",
+                    "required": true,
+                    "sample": "Smith",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "622760f0-65d3-415f-ac20-d6440c245ca5",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "GUID": "ac6c64fd-7afa-472c-8519-40629364b632",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "c8974174-15af-4191-8b7d-d3731eb1cc86"
+        },
+        {
+            "collectionName": "access-code-password-recovery-code",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Identifier",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "f2cff65c-e36c-4ace-ba05-33f1ac44db1d"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "int32",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "35550e6d-c60e-4762-91ba-a4e1e4e8fc43",
+                    "required": true,
+                    "sample": 9346,
+                    "error": {}
+                },
+                {
+                    "name": "Access code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 6,
+                    "length": 6,
+                    "GUID": "1cde960a-6859-4015-828c-915cc55861d4",
+                    "required": true,
+                    "sample": "09ja61",
+                    "error": {}
+                },
+                {
+                    "name": "Recovery code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 6,
+                    "length": 6,
+                    "GUID": "8a1b654c-fa35-4c7d-8791-9888990ddc0c",
+                    "required": true,
+                    "sample": "js5079",
+                    "error": {}
+                },
+                {
+                    "name": "First name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 6,
+                    "length": 6,
+                    "GUID": "8725c682-1684-46f4-96a5-8a92962da563",
+                    "required": true,
+                    "sample": "Jamie",
+                    "error": {}
+                },
+                {
+                    "name": "Last name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 7,
+                    "length": 7,
+                    "GUID": "35495f19-412f-4d75-a614-9de086d8ffc5",
+                    "required": true,
+                    "sample": "Smith",
+                    "error": {}
+                },
+                {
+                    "name": "Department",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 11,
+                    "length": 11,
+                    "GUID": "5fcb0481-36bf-4011-be0d-b4e07adce1d8",
+                    "required": true,
+                    "sample": "Engineering",
+                    "error": {}
+                },
+                {
+                    "name": "Location",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 10,
+                    "length": 10,
+                    "GUID": "6f7acbf0-0982-48b9-9833-8d854a920881",
+                    "required": true,
+                    "sample": "Manchester",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "7104479e-503a-47a6-96d1-b17dae2f248d",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "GUID": "f44f109a-5fa0-47a8-a7b3-4bc4b0a2d48c",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "10bf0369-8f06-47a9-b4ec-e5b562ebae7c"
+        },
+        {
+            "collectionName": "email",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Login email",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 17,
+                    "length": 17,
+                    "GUID": "e8065cc5-c6c6-4384-bb26-d639ebb7ba7f",
+                    "required": true,
+                    "sample": "jamie@example.com",
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "13255828-d3d9-453f-8674-66b07d8aed1e",
+                    "foreignField": [
+                        "13255828-d3d9-453f-8674-66b07d8aed1e",
+                        "3d554371-1a11-4f46-9eff-f04600de4c9c"
+                    ],
+                    "parentRelationship": "30ef8334-9b2d-4468-a231-344880c74cc1"
+                },
+                {
+                    "name": "Identifier",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "60318b5f-341c-488b-b531-31aceee5a3ea"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": true,
+                    "mode": "int32",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "b36435d1-0d92-43f6-9889-0ac38ad94596",
+                    "required": true,
+                    "sample": 9346,
+                    "childRelationships": [
+                        "3db919c5-3235-4578-a220-627b589e04fa",
+                        "ac6294b7-f5e1-4b3d-af52-f29f586315e2",
+                        "45d80c30-f4d4-4bdd-96f4-a984c3f709bd",
+                        "1d3ac094-318a-455f-bee9-dbe2ded29ecf"
+                    ],
+                    "error": {}
+                },
+                {
+                    "name": "First name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 5,
+                    "length": 5,
+                    "GUID": "69dab0c6-664b-4157-98a9-871bcd9dc0f7",
+                    "required": true,
+                    "sample": "Jamie",
+                    "error": {}
+                },
+                {
+                    "name": "Last name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 7,
+                    "length": 7,
+                    "GUID": "ffde732e-de75-4ffc-b422-8c6f26bd0a91",
+                    "required": true,
+                    "sample": "Smith",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "59d50441-8884-4ada-82da-363752279c3f",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "GUID": "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "545b225c-94fb-4294-a270-d986f3019874"
+        },
+        {
+            "collectionName": "email-password-recovery-code",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Login email",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 18,
+                    "length": 18,
+                    "GUID": "3d554371-1a11-4f46-9eff-f04600de4c9c",
+                    "required": true,
+                    "sample": "jamie@example.com",
+                    "childRelationships": [
+                        "88d82649-dbe7-4e4f-851b-24e25e1855cd",
+                        "30ef8334-9b2d-4468-a231-344880c74cc1"
+                    ],
+                    "error": {}
+                },
+                {
+                    "name": "Identifier",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "9139d47b-6e34-413a-8293-16518e0a49dc"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int32",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "51577e7f-d819-45a3-b61b-d665ba0e09db",
+                    "required": true,
+                    "sample": 9346,
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                    "foreignField": [
+                        "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                        "b36435d1-0d92-43f6-9889-0ac38ad94596"
+                    ],
+                    "parentRelationship": "ac6294b7-f5e1-4b3d-af52-f29f586315e2"
+                },
+                {
+                    "name": "One-time password",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 6,
+                    "length": 6,
+                    "GUID": "df7c5e48-7f72-477a-912b-23e488629759",
+                    "required": true,
+                    "sample": "09ja61",
+                    "error": {}
+                },
+                {
+                    "name": "Recovery code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 6,
+                    "length": 6,
+                    "GUID": "ca65a00a-70c6-485f-9189-ddafce6a5e91",
+                    "required": true,
+                    "sample": "js5079",
+                    "error": {}
+                },
+                {
+                    "name": "First name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 6,
+                    "length": 6,
+                    "GUID": "5aaebdfe-892a-4325-9679-0aaf53a89dac",
+                    "required": true,
+                    "sample": "Jamie",
+                    "error": {}
+                },
+                {
+                    "name": "Last name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 7,
+                    "length": 7,
+                    "GUID": "2a0ea0a6-578d-49f0-855b-d42939c7a1dd",
+                    "required": true,
+                    "sample": "Smith",
+                    "error": {}
+                },
+                {
+                    "name": "Department",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 11,
+                    "length": 11,
+                    "GUID": "b3c95f00-9eb1-453e-8af3-5531975beb41",
+                    "required": true,
+                    "sample": "Engineering",
+                    "error": {}
+                },
+                {
+                    "name": "Location",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 10,
+                    "length": 10,
+                    "GUID": "b345b700-c8c7-4e77-8087-2258da2a739b",
+                    "required": true,
+                    "sample": "Manchester",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "d83f5b56-0317-4f17-8c47-448b48ec6a5d",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "GUID": "13255828-d3d9-453f-8674-66b07d8aed1e",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "acc5d44d-b3a5-4561-b1fc-dd0b4eb785df"
+        },
+        {
+            "collectionName": "username",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Username",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 9,
+                    "length": 9,
+                    "GUID": "1648b299-d72f-42e8-92ce-e4adfd7df7be",
+                    "required": true,
+                    "sample": "smith79",
+                    "error": {}
+                },
+                {
+                    "name": "Identifier",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "faeff0bf-1b0c-487f-ab69-58c8945526f4"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int32",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "92d17395-52f0-4e75-8fc9-9729f106cc98",
+                    "required": true,
+                    "sample": 9346,
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                    "foreignField": [
+                        "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                        "b36435d1-0d92-43f6-9889-0ac38ad94596"
+                    ],
+                    "parentRelationship": "1d3ac094-318a-455f-bee9-dbe2ded29ecf"
+                },
+                {
+                    "name": "First name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 6,
+                    "length": 6,
+                    "GUID": "4eb0ba83-136b-49cd-a6e6-2a5e9cced0d9",
+                    "required": true,
+                    "sample": "Jamie",
+                    "error": {}
+                },
+                {
+                    "name": "Last name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 7,
+                    "length": 7,
+                    "GUID": "565443e4-fe6c-476a-ab2e-9fd490194851",
+                    "required": true,
+                    "sample": "Smith",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "cb3f06c5-10d4-4475-b29b-13301d4db170",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "GUID": "8fc78837-7340-4a42-84a3-ae605579604e",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "849c4127-228f-46b8-b280-8a63813c5e7b"
+        },
+        {
+            "collectionName": "username-or-email",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Username",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 9,
+                    "length": 9,
+                    "GUID": "287cb177-e605-4edb-8d4b-d41802de2170",
+                    "required": true,
+                    "sample": "smith79",
+                    "error": {}
+                },
+                {
+                    "name": "Login email",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 18,
+                    "length": 18,
+                    "GUID": "76684b56-bf36-44e5-b527-f07f2a671489",
+                    "required": true,
+                    "sample": "jamie@example.com",
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "13255828-d3d9-453f-8674-66b07d8aed1e",
+                    "foreignField": [
+                        "13255828-d3d9-453f-8674-66b07d8aed1e",
+                        "3d554371-1a11-4f46-9eff-f04600de4c9c"
+                    ],
+                    "parentRelationship": "88d82649-dbe7-4e4f-851b-24e25e1855cd"
+                },
+                {
+                    "name": "Identifier",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "b3147853-e49c-441b-8eee-f1e58528a2fb"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int32",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "2d29ca36-12b9-469f-a860-6ddc1b43424f",
+                    "required": true,
+                    "sample": 9346,
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                    "foreignField": [
+                        "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                        "b36435d1-0d92-43f6-9889-0ac38ad94596"
+                    ],
+                    "parentRelationship": "45d80c30-f4d4-4bdd-96f4-a984c3f709bd"
+                },
+                {
+                    "name": "First name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 6,
+                    "length": 6,
+                    "GUID": "2e291570-a1b4-426d-b4b8-7849c8471619",
+                    "required": true,
+                    "sample": "Jamie",
+                    "error": {}
+                },
+                {
+                    "name": "Last name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 7,
+                    "length": 7,
+                    "GUID": "762bc37c-0bb3-403b-a681-2603899917bd",
+                    "required": true,
+                    "sample": "Smith",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "eb56ac6f-7be4-4d44-b89a-256ea78b119f",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "GUID": "66f5a921-737f-445d-9971-0c152300b526",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "2e3c27d9-bf9c-4afe-a491-f4b1128c698e"
+        },
+        {
+            "collectionName": "username-password-recovery-code",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Username",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 9,
+                    "length": 9,
+                    "GUID": "88e5b039-417c-4067-8654-de2560f9f20a",
+                    "required": true,
+                    "sample": "smith79",
+                    "error": {}
+                },
+                {
+                    "name": "Identifier",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "53507ab1-2192-40e7-ba11-410fb79ef82d"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int32",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "8417dd96-fc59-4137-83e7-12c55506e94b",
+                    "required": true,
+                    "sample": 9346,
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                    "foreignField": [
+                        "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                        "b36435d1-0d92-43f6-9889-0ac38ad94596"
+                    ],
+                    "parentRelationship": "3db919c5-3235-4578-a220-627b589e04fa"
+                },
+                {
+                    "name": "One-time password",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 6,
+                    "length": 6,
+                    "GUID": "6801e2ff-1ff3-446f-b344-a56a76e7fe0b",
+                    "required": true,
+                    "sample": "09ja61",
+                    "error": {}
+                },
+                {
+                    "name": "Recovery code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 6,
+                    "length": 6,
+                    "GUID": "35480e0f-0f17-438b-9dd6-84c3c49b11a3",
+                    "required": true,
+                    "sample": "js5079",
+                    "error": {}
+                },
+                {
+                    "name": "First name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 6,
+                    "length": 6,
+                    "GUID": "2975bba5-2d67-4a65-a1cd-b947d796d657",
+                    "required": true,
+                    "sample": "Jamie",
+                    "error": {}
+                },
+                {
+                    "name": "Last name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 7,
+                    "length": 7,
+                    "GUID": "8a9386e0-2fcb-4721-a850-440beec7988a",
+                    "required": true,
+                    "sample": "Smith",
+                    "error": {}
+                },
+                {
+                    "name": "Department",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 11,
+                    "length": 11,
+                    "GUID": "c95c0b82-2d1e-4d68-8a23-2596077f8e63",
+                    "required": true,
+                    "sample": "Engineering",
+                    "error": {}
+                },
+                {
+                    "name": "Location",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "maxLength": 10,
+                    "length": 10,
+                    "GUID": "45e0ca0a-f57a-4db8-a992-950b4df9e964",
+                    "required": true,
+                    "sample": "Manchester",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "79a10286-1e60-41cb-8008-9708dfc0acce",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "GUID": "95c69367-1a88-4f02-91aa-fa4baff12a9e",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "bucketId": "cdbb33fb-f0c6-4951-9b92-38a6dbc3d36a"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "access-code",
+            "type": "bucket",
+            "collectionIds": [
+                "ac6c64fd-7afa-472c-8519-40629364b632"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "c8974174-15af-4191-8b7d-d3731eb1cc86",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "code": ""
+        },
+        {
+            "name": "access-code-password-recovery-code",
+            "type": "bucket",
+            "collectionIds": [
+                "f44f109a-5fa0-47a8-a7b3-4bc4b0a2d48c"
+            ],
+            "backgroundColor": {
+                "r": 0,
+                "g": 138,
+                "b": 0,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "10bf0369-8f06-47a9-b4ec-e5b562ebae7c",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "code": ""
+        },
+        {
+            "name": "email",
+            "type": "bucket",
+            "collectionIds": [
+                "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53"
+            ],
+            "backgroundColor": {
+                "r": 0,
+                "g": 188,
+                "b": 213,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "545b225c-94fb-4294-a270-d986f3019874",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "code": ""
+        },
+        {
+            "name": "email-password-recovery-code",
+            "type": "bucket",
+            "collectionIds": [
+                "13255828-d3d9-453f-8674-66b07d8aed1e"
+            ],
+            "backgroundColor": {
+                "r": 3,
+                "g": 169,
+                "b": 245,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "acc5d44d-b3a5-4561-b1fc-dd0b4eb785df",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "code": ""
+        },
+        {
+            "name": "username",
+            "type": "bucket",
+            "collectionIds": [
+                "8fc78837-7340-4a42-84a3-ae605579604e"
+            ],
+            "backgroundColor": {
+                "r": 33,
+                "g": 150,
+                "b": 243,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "849c4127-228f-46b8-b280-8a63813c5e7b",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "code": ""
+        },
+        {
+            "name": "username-or-email",
+            "type": "bucket",
+            "collectionIds": [
+                "66f5a921-737f-445d-9971-0c152300b526"
+            ],
+            "backgroundColor": {
+                "r": 51,
+                "g": 51,
+                "b": 51,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "2e3c27d9-bf9c-4afe-a491-f4b1128c698e",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "code": ""
+        },
+        {
+            "name": "username-password-recovery-code",
+            "type": "bucket",
+            "collectionIds": [
+                "95c69367-1a88-4f02-91aa-fa4baff12a9e"
+            ],
+            "backgroundColor": {
+                "r": 53,
+                "g": 94,
+                "b": 59,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "cdbb33fb-f0c6-4951-9b92-38a6dbc3d36a",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "code": ""
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "GUID": "3db919c5-3235-4578-a220-627b589e04fa",
+            "name": "fk username-password-recovery-code.Identifier to email.Identifier",
+            "relationshipType": "Foreign Key",
+            "parentCardinality": "1",
+            "parentCollection": "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+            "parentField": [
+                [
+                    "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                    "b36435d1-0d92-43f6-9889-0ac38ad94596"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "childCollection": "95c69367-1a88-4f02-91aa-fa4baff12a9e",
+            "childField": [
+                [
+                    "95c69367-1a88-4f02-91aa-fa4baff12a9e",
+                    "8417dd96-fc59-4137-83e7-12c55506e94b"
+                ]
+            ],
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "823aad5d-1875-4277-90e8-ce111d8c7d0b",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 10210,
+                        "y": 10227
+                    },
+                    {
+                        "x": 10210,
+                        "y": 10406.5
+                    },
+                    {
+                        "x": 10233.75,
+                        "y": 10406.5
+                    },
+                    {
+                        "x": 10233.75,
+                        "y": 10586
+                    }
+                ],
+                "sides": [
+                    "bottom",
+                    "top"
+                ],
+                "autoPositioning": true
+            }
+        },
+        {
+            "GUID": "ac6294b7-f5e1-4b3d-af52-f29f586315e2",
+            "name": "fk email-password-recovery-code.Identifier to email.Identifier",
+            "relationshipType": "Foreign Key",
+            "parentCardinality": "1",
+            "parentCollection": "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+            "parentField": [
+                [
+                    "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                    "b36435d1-0d92-43f6-9889-0ac38ad94596"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "childCollection": "13255828-d3d9-453f-8674-66b07d8aed1e",
+            "childField": [
+                [
+                    "13255828-d3d9-453f-8674-66b07d8aed1e",
+                    "51577e7f-d819-45a3-b61b-d665ba0e09db"
+                ]
+            ],
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "4bc17e05-3a2e-485b-bc5d-3e56ac6cc23e",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 10246,
+                        "y": 10495
+                    },
+                    {
+                        "x": 10246,
+                        "y": 10540.5
+                    },
+                    {
+                        "x": 10172.5,
+                        "y": 10540.5
+                    },
+                    {
+                        "x": 10172.5,
+                        "y": 10586
+                    }
+                ],
+                "sides": [
+                    "bottom",
+                    "top"
+                ],
+                "autoPositioning": true
+            }
+        },
+        {
+            "GUID": "45d80c30-f4d4-4bdd-96f4-a984c3f709bd",
+            "name": "fk username-or-email.Identifier to email.Identifier",
+            "relationshipType": "Foreign Key",
+            "parentCardinality": "1",
+            "parentCollection": "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+            "parentField": [
+                [
+                    "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                    "b36435d1-0d92-43f6-9889-0ac38ad94596"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "childCollection": "66f5a921-737f-445d-9971-0c152300b526",
+            "childField": [
+                [
+                    "66f5a921-737f-445d-9971-0c152300b526",
+                    "2d29ca36-12b9-469f-a860-6ddc1b43424f"
+                ]
+            ],
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "4bba699f-9e04-4b25-9aee-b7d031b5d840",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 10425,
+                        "y": 10400
+                    },
+                    {
+                        "x": 10360,
+                        "y": 10400
+                    },
+                    {
+                        "x": 10360,
+                        "y": 10621
+                    },
+                    {
+                        "x": 10295,
+                        "y": 10621
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ],
+                "autoPositioning": true
+            }
+        },
+        {
+            "GUID": "1d3ac094-318a-455f-bee9-dbe2ded29ecf",
+            "name": "fk username.Identifier to email.Identifier",
+            "relationshipType": "Foreign Key",
+            "parentCardinality": "1",
+            "parentCollection": "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+            "parentField": [
+                [
+                    "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                    "b36435d1-0d92-43f6-9889-0ac38ad94596"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "childCollection": "8fc78837-7340-4a42-84a3-ae605579604e",
+            "childField": [
+                [
+                    "8fc78837-7340-4a42-84a3-ae605579604e",
+                    "92d17395-52f0-4e75-8fc9-9729f106cc98"
+                ]
+            ],
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "902225da-bf4b-4586-b89f-673619bcbe68",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 10742.33333333333,
+                        "y": 10638.5
+                    },
+                    {
+                        "x": 10518.666666666664,
+                        "y": 10638.5
+                    },
+                    {
+                        "x": 10518.666666666664,
+                        "y": 10656
+                    },
+                    {
+                        "x": 10295,
+                        "y": 10656
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ],
+                "autoPositioning": true
+            }
+        },
+        {
+            "GUID": "88d82649-dbe7-4e4f-851b-24e25e1855cd",
+            "name": "fk username-or-email.Login email to email-password-recovery-code.Login email",
+            "relationshipType": "Foreign Key",
+            "parentCardinality": "1",
+            "parentCollection": "13255828-d3d9-453f-8674-66b07d8aed1e",
+            "parentField": [
+                [
+                    "13255828-d3d9-453f-8674-66b07d8aed1e",
+                    "3d554371-1a11-4f46-9eff-f04600de4c9c"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "childCollection": "66f5a921-737f-445d-9971-0c152300b526",
+            "childField": [
+                [
+                    "66f5a921-737f-445d-9971-0c152300b526",
+                    "76684b56-bf36-44e5-b527-f07f2a671489"
+                ]
+            ],
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "a89b094b-d897-4cd0-a6f2-a8d6f7f7cf29",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 10425,
+                        "y": 10359
+                    },
+                    {
+                        "x": 10384.5,
+                        "y": 10359
+                    },
+                    {
+                        "x": 10384.5,
+                        "y": 10406.5
+                    },
+                    {
+                        "x": 10344,
+                        "y": 10406.5
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ],
+                "autoPositioning": true
+            }
+        },
+        {
+            "GUID": "30ef8334-9b2d-4468-a231-344880c74cc1",
+            "name": "fk email.Login email to email-password-recovery-code.Login email",
+            "relationshipType": "Foreign Key",
+            "parentCardinality": "1",
+            "parentCollection": "13255828-d3d9-453f-8674-66b07d8aed1e",
+            "parentField": [
+                [
+                    "13255828-d3d9-453f-8674-66b07d8aed1e",
+                    "3d554371-1a11-4f46-9eff-f04600de4c9c"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "childCollection": "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+            "childField": [
+                [
+                    "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                    "e8065cc5-c6c6-4384-bb26-d639ebb7ba7f"
+                ]
+            ],
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "3d1232e7-d0f0-4243-9f01-483fae568bcb",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 10111.25,
+                        "y": 10586
+                    },
+                    {
+                        "x": 10111.25,
+                        "y": 10540.5
+                    },
+                    {
+                        "x": 10148,
+                        "y": 10540.5
+                    },
+                    {
+                        "x": 10148,
+                        "y": 10495
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "bottom"
+                ],
+                "autoPositioning": true
+            }
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "c8974174-15af-4191-8b7d-d3731eb1cc86": "access-code",
+        "809c087c-dab5-4be7-b26a-2c25011e44cb": "Identifier",
+        "7dd8fe45-63c6-4777-bd18-c414fd2dcb7f": "First name",
+        "61750f5b-c687-4457-afc9-34594830ef9c": "Last name",
+        "ac6c64fd-7afa-472c-8519-40629364b632": "access-code",
+        "10bf0369-8f06-47a9-b4ec-e5b562ebae7c": "access-code-password-recovery-code",
+        "35550e6d-c60e-4762-91ba-a4e1e4e8fc43": "Identifier",
+        "1cde960a-6859-4015-828c-915cc55861d4": "Access code",
+        "8a1b654c-fa35-4c7d-8791-9888990ddc0c": "Recovery code",
+        "8725c682-1684-46f4-96a5-8a92962da563": "First name",
+        "35495f19-412f-4d75-a614-9de086d8ffc5": "Last name",
+        "5fcb0481-36bf-4011-be0d-b4e07adce1d8": "Department",
+        "6f7acbf0-0982-48b9-9833-8d854a920881": "Location",
+        "f44f109a-5fa0-47a8-a7b3-4bc4b0a2d48c": "access-code-password-recovery-code",
+        "545b225c-94fb-4294-a270-d986f3019874": "email",
+        "e8065cc5-c6c6-4384-bb26-d639ebb7ba7f": "Login email",
+        "b36435d1-0d92-43f6-9889-0ac38ad94596": "Identifier",
+        "69dab0c6-664b-4157-98a9-871bcd9dc0f7": "First name",
+        "ffde732e-de75-4ffc-b422-8c6f26bd0a91": "Last name",
+        "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53": "email",
+        "acc5d44d-b3a5-4561-b1fc-dd0b4eb785df": "email-password-recovery-code",
+        "3d554371-1a11-4f46-9eff-f04600de4c9c": "Login email",
+        "51577e7f-d819-45a3-b61b-d665ba0e09db": "Identifier",
+        "df7c5e48-7f72-477a-912b-23e488629759": "One-time password",
+        "ca65a00a-70c6-485f-9189-ddafce6a5e91": "Recovery code",
+        "5aaebdfe-892a-4325-9679-0aaf53a89dac": "First name",
+        "2a0ea0a6-578d-49f0-855b-d42939c7a1dd": "Last name",
+        "b3c95f00-9eb1-453e-8af3-5531975beb41": "Department",
+        "b345b700-c8c7-4e77-8087-2258da2a739b": "Location",
+        "13255828-d3d9-453f-8674-66b07d8aed1e": "email-password-recovery-code",
+        "849c4127-228f-46b8-b280-8a63813c5e7b": "username",
+        "1648b299-d72f-42e8-92ce-e4adfd7df7be": "Username",
+        "92d17395-52f0-4e75-8fc9-9729f106cc98": "Identifier",
+        "4eb0ba83-136b-49cd-a6e6-2a5e9cced0d9": "First name",
+        "565443e4-fe6c-476a-ab2e-9fd490194851": "Last name",
+        "8fc78837-7340-4a42-84a3-ae605579604e": "username",
+        "2e3c27d9-bf9c-4afe-a491-f4b1128c698e": "username-or-email",
+        "287cb177-e605-4edb-8d4b-d41802de2170": "Username",
+        "76684b56-bf36-44e5-b527-f07f2a671489": "Login email",
+        "2d29ca36-12b9-469f-a860-6ddc1b43424f": "Identifier",
+        "2e291570-a1b4-426d-b4b8-7849c8471619": "First name",
+        "762bc37c-0bb3-403b-a681-2603899917bd": "Last name",
+        "66f5a921-737f-445d-9971-0c152300b526": "username-or-email",
+        "cdbb33fb-f0c6-4951-9b92-38a6dbc3d36a": "username-password-recovery-code",
+        "88e5b039-417c-4067-8654-de2560f9f20a": "Username",
+        "8417dd96-fc59-4137-83e7-12c55506e94b": "Identifier",
+        "6801e2ff-1ff3-446f-b344-a56a76e7fe0b": "One-time password",
+        "35480e0f-0f17-438b-9dd6-84c3c49b11a3": "Recovery code",
+        "2975bba5-2d67-4a65-a1cd-b947d796d657": "First name",
+        "8a9386e0-2fcb-4721-a850-440beec7988a": "Last name",
+        "c95c0b82-2d1e-4d68-8a23-2596077f8e63": "Department",
+        "45e0ca0a-f57a-4db8-a992-950b4df9e964": "Location",
+        "95c69367-1a88-4f02-91aa-fa4baff12a9e": "username-password-recovery-code",
+        "3db919c5-3235-4578-a220-627b589e04fa": "fk username-password-recovery-code.Identifier to email.Identifier",
+        "ac6294b7-f5e1-4b3d-af52-f29f586315e2": "fk email-password-recovery-code.Identifier to email.Identifier",
+        "45d80c30-f4d4-4bdd-96f4-a984c3f709bd": "fk username-or-email.Identifier to email.Identifier",
+        "1d3ac094-318a-455f-bee9-dbe2ded29ecf": "fk username.Identifier to email.Identifier",
+        "88d82649-dbe7-4e4f-851b-24e25e1855cd": "fk username-or-email.Login email to email-password-recovery-code.Login email",
+        "30ef8334-9b2d-4468-a231-344880c74cc1": "fk email.Login email to email-password-recovery-code.Login email"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "0a586d18-fbf5-462e-875c-adbe7eec6112"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "34dcc4f5-3420-4041-8b86-d5aacc2dc3a3"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "58fa5493-cd73-4576-838c-4d8bf129eb59"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2023-04-11T09:03:19.895Z",
+    "GUID": "e56db3bb-37e9-4fd1-8dbd-f08c08b3266b",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-04-11T09:14:08.414Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Polyglot",
+        "pluginVersion": "0.0.1",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.9.9"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "ac6c64fd-7afa-472c-8519-40629364b632",
+                        "x": 10862,
+                        "y": 10050,
+                        "width": 232,
+                        "height": 87,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "f44f109a-5fa0-47a8-a7b3-4bc4b0a2d48c",
+                        "x": 10451,
+                        "y": 10050,
+                        "width": 331,
+                        "height": 159,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                        "x": 10050,
+                        "y": 10586,
+                        "width": 245,
+                        "height": 105,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "13255828-d3d9-453f-8674-66b07d8aed1e",
+                        "x": 10050,
+                        "y": 10318,
+                        "width": 294,
+                        "height": 177,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "8fc78837-7340-4a42-84a3-ae605579604e",
+                        "x": 10742.33333333333,
+                        "y": 10586,
+                        "width": 232,
+                        "height": 105,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "66f5a921-737f-445d-9971-0c152300b526",
+                        "x": 10425,
+                        "y": 10318,
+                        "width": 244,
+                        "height": 123,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "95c69367-1a88-4f02-91aa-fa4baff12a9e",
+                        "x": 10050,
+                        "y": 10050,
+                        "width": 320,
+                        "height": 177,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 10822,
+                        "y": 10010,
+                        "GUID": "c8974174-15af-4191-8b7d-d3731eb1cc86"
+                    },
+                    {
+                        "x": 10411,
+                        "y": 10010,
+                        "GUID": "10bf0369-8f06-47a9-b4ec-e5b562ebae7c"
+                    },
+                    {
+                        "x": 10010,
+                        "y": 10546,
+                        "GUID": "545b225c-94fb-4294-a270-d986f3019874"
+                    },
+                    {
+                        "x": 10010,
+                        "y": 10278,
+                        "GUID": "acc5d44d-b3a5-4561-b1fc-dd0b4eb785df"
+                    },
+                    {
+                        "x": 10702.33333333333,
+                        "y": 10546,
+                        "GUID": "849c4127-228f-46b8-b280-8a63813c5e7b"
+                    },
+                    {
+                        "x": 10385,
+                        "y": 10278,
+                        "GUID": "2e3c27d9-bf9c-4afe-a491-f4b1128c698e"
+                    },
+                    {
+                        "x": 10010,
+                        "y": 10010,
+                        "GUID": "cdbb33fb-f0c6-4951-9b92-38a6dbc3d36a"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "ac6c64fd-7afa-472c-8519-40629364b632",
+                            "size": 100,
+                            "x": 1050,
+                            "y": 1050
+                        },
+                        {
+                            "GUID": "f44f109a-5fa0-47a8-a7b3-4bc4b0a2d48c",
+                            "size": 100,
+                            "x": 1050,
+                            "y": 2300
+                        },
+                        {
+                            "GUID": "ad52c85a-fbab-42a8-a2a5-eb921f9d8d53",
+                            "size": 100,
+                            "x": 1050,
+                            "y": 3550
+                        },
+                        {
+                            "GUID": "13255828-d3d9-453f-8674-66b07d8aed1e",
+                            "size": 100,
+                            "x": 1050,
+                            "y": 4800
+                        },
+                        {
+                            "GUID": "8fc78837-7340-4a42-84a3-ae605579604e",
+                            "size": 100,
+                            "x": 1050,
+                            "y": 6050
+                        },
+                        {
+                            "GUID": "66f5a921-737f-445d-9971-0c152300b526",
+                            "size": 100,
+                            "x": 1050,
+                            "y": 7300
+                        },
+                        {
+                            "GUID": "95c69367-1a88-4f02-91aa-fa4baff12a9e",
+                            "size": 100,
+                            "x": 1050,
+                            "y": 8550
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 40,
+                            "y": 40,
+                            "GUID": "c8974174-15af-4191-8b7d-d3731eb1cc86"
+                        },
+                        {
+                            "x": 80,
+                            "y": 80,
+                            "GUID": "10bf0369-8f06-47a9-b4ec-e5b562ebae7c"
+                        },
+                        {
+                            "x": 120,
+                            "y": 120,
+                            "GUID": "545b225c-94fb-4294-a270-d986f3019874"
+                        },
+                        {
+                            "x": 160,
+                            "y": 160,
+                            "GUID": "acc5d44d-b3a5-4561-b1fc-dd0b4eb785df"
+                        },
+                        {
+                            "x": 200,
+                            "y": 200,
+                            "GUID": "849c4127-228f-46b8-b280-8a63813c5e7b"
+                        },
+                        {
+                            "x": 240,
+                            "y": 240,
+                            "GUID": "2e3c27d9-bf9c-4afe-a491-f4b1128c698e"
+                        },
+                        {
+                            "x": 280,
+                            "y": 280,
+                            "GUID": "cdbb33fb-f0c6-4951-9b92-38a6dbc3d36a"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 327
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "hideErdRelationshipsNames": false
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
