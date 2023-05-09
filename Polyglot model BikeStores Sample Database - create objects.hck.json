@@ -2079,13 +2079,23 @@
                     "name": "required_date",
                     "hackoladeMeta": {},
                     "isActivated": true,
-                    "childType": "date",
-                    "type": "string",
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "812b3a08-bdb1-4621-8949-46bdcb78f6fd"
+                    },
+                    "tPrecision": 9,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "float",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
                     "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
                     "required": true,
-                    "unique": false,
-                    "primaryKey": false,
                     "GUID": "6d39f439-5d0e-4c73-b073-4356d6b0ea17",
                     "error": {},
                     "sources": [
@@ -2099,7 +2109,8 @@
                             "lineageSourceContainerBusName": "sales",
                             "lineageSourceContainerTechName": ""
                         }
-                    ]
+                    ],
+                    "unique": false
                 },
                 {
                     "name": "shipped_date",
@@ -3090,15 +3101,15 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 20581,
-                        "y": 20361
+                        "x": 20589,
+                        "y": 20362.5
                     },
                     {
-                        "x": 20622.5,
-                        "y": 20361
+                        "x": 20626.5,
+                        "y": 20362.5
                     },
                     {
-                        "x": 20622.5,
+                        "x": 20626.5,
                         "y": 20370
                     },
                     {
@@ -3144,11 +3155,11 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 20506.333333333332,
+                        "x": 20511.666666666668,
                         "y": 20274
                     },
                     {
-                        "x": 20506.333333333332,
+                        "x": 20511.666666666668,
                         "y": 20249
                     },
                     {
@@ -3199,11 +3210,11 @@
                 "shape": [
                     {
                         "x": 20357,
-                        "y": 20332
+                        "y": 20362.5
                     },
                     {
                         "x": 20326,
-                        "y": 20332
+                        "y": 20362.5
                     },
                     {
                         "x": 20326,
@@ -3260,11 +3271,11 @@
                         "y": 20249
                     },
                     {
-                        "x": 20431.666666666668,
+                        "x": 20434.333333333332,
                         "y": 20249
                     },
                     {
-                        "x": 20431.666666666668,
+                        "x": 20434.333333333332,
                         "y": 20274
                     }
                 ],
@@ -4610,7 +4621,7 @@
     "hackoladeMeta": {
         "validationErrors": {}
     },
-    "lastModifTS": "2023-04-06T09:37:12.143Z",
+    "lastModifTS": "2023-05-09T11:56:49.522Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -4729,8 +4740,8 @@
                         "GUID": "2b0df576-7d13-4a5b-ae61-302ab4328385",
                         "x": 20357,
                         "y": 20274,
-                        "width": 224,
-                        "height": 174,
+                        "width": 232,
+                        "height": 177,
                         "color": {
                             "hex": "#2196F3"
                         }
