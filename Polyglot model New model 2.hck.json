@@ -267,7 +267,14 @@
                     "GUID": "6f7acbf0-0982-48b9-9833-8d854a920881",
                     "required": true,
                     "sample": "Manchester",
-                    "error": {}
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "95c69367-1a88-4f02-91aa-fa4baff12a9e",
+                    "foreignField": [
+                        "95c69367-1a88-4f02-91aa-fa4baff12a9e",
+                        "35480e0f-0f17-438b-9dd6-84c3c49b11a3"
+                    ],
+                    "parentRelationship": "0167a837-d767-4b54-89c6-cd7d9bce031e"
                 }
             ],
             "definitions": {
@@ -1024,7 +1031,10 @@
                     "GUID": "35480e0f-0f17-438b-9dd6-84c3c49b11a3",
                     "required": true,
                     "sample": "js5079",
-                    "error": {}
+                    "error": {},
+                    "childRelationships": [
+                        "0167a837-d767-4b54-89c6-cd7d9bce031e"
+                    ]
                 },
                 {
                     "name": "First name",
@@ -1314,11 +1324,11 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 10210,
+                        "x": 10209.5,
                         "y": 10227
                     },
                     {
-                        "x": 10210,
+                        "x": 10209.5,
                         "y": 10406.5
                     },
                     {
@@ -1581,6 +1591,59 @@
                 ],
                 "autoPositioning": true
             }
+        },
+        {
+            "name": "fk access-code-password-recovery-code.Location to username-password-recovery-code.Recovery code",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "95c69367-1a88-4f02-91aa-fa4baff12a9e",
+                    "35480e0f-0f17-438b-9dd6-84c3c49b11a3"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "f44f109a-5fa0-47a8-a7b3-4bc4b0a2d48c",
+                    "6f7acbf0-0982-48b9-9833-8d854a920881"
+                ]
+            ],
+            "childCardinality": "1",
+            "parentCollection": "95c69367-1a88-4f02-91aa-fa4baff12a9e",
+            "childCollection": "f44f109a-5fa0-47a8-a7b3-4bc4b0a2d48c",
+            "GUID": "0167a837-d767-4b54-89c6-cd7d9bce031e",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "95cacbf8-063c-4b57-9237-49c4b619cbb3",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 10495,
+                        "y": 9911.5
+                    },
+                    {
+                        "x": 10432.5,
+                        "y": 9911.5
+                    },
+                    {
+                        "x": 10432.5,
+                        "y": 10138.5
+                    },
+                    {
+                        "x": 10370,
+                        "y": 10138.5
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            }
         }
     ],
     "users": [],
@@ -1644,7 +1707,8 @@
         "45d80c30-f4d4-4bdd-96f4-a984c3f709bd": "fk username-or-email.Identifier to email.Identifier",
         "1d3ac094-318a-455f-bee9-dbe2ded29ecf": "fk username.Identifier to email.Identifier",
         "88d82649-dbe7-4e4f-851b-24e25e1855cd": "fk username-or-email.Login email to email-password-recovery-code.Login email",
-        "30ef8334-9b2d-4468-a231-344880c74cc1": "fk email.Login email to email-password-recovery-code.Login email"
+        "30ef8334-9b2d-4468-a231-344880c74cc1": "fk email.Login email to email-password-recovery-code.Login email",
+        "0167a837-d767-4b54-89c6-cd7d9bce031e": "fk access-code-password-recovery-code.Location to username-password-recovery-code.Recovery code"
     },
     "definitions": {
         "type": "definitions",
@@ -1668,7 +1732,7 @@
     "creationTS": "2023-04-11T09:03:19.895Z",
     "GUID": "e56db3bb-37e9-4fd1-8dbd-f08c08b3266b",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-04-11T09:35:37.148Z",
+    "lastModifTS": "2023-05-09T12:00:57.659Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -1679,6 +1743,7 @@
     "applicationInformation": {
         "version": "6.9.9"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -1798,7 +1863,7 @@
                     }
                 ],
                 "collapsedNodes": [],
-                "activeRelationship": "",
+                "activeRelationship": "0167a837-d767-4b54-89c6-cd7d9bce031e",
                 "activeRelationshipFields": {
                     "childField": [],
                     "parentField": []
